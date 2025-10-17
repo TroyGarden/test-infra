@@ -225,6 +225,13 @@
       "linux"
     ]
   ],
+  "test_batchmatmul (__main__.TestTritonDotReduction)": [
+    "165771",
+    "https://github.com/pytorch/pytorch/issues/165771",
+    [
+      "xpu"
+    ]
+  ],
   "test_benchmark_choice_in_subproc (__main__.TestMaxAutotuneSubproc)": [
     "158335",
     "https://github.com/pytorch/pytorch/issues/158335",
