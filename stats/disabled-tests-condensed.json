@@ -120,6 +120,13 @@
       "rocm"
     ]
   ],
+  "test_allocator_backend (__main__.TestCudaMallocAsync)": [
+    "165872",
+    "https://github.com/pytorch/pytorch/issues/165872",
+    [
+      "rocm"
+    ]
+  ],
   "test_allreduce_float8 (__main__.ProcessGroupNCCLOpTest)": [
     "157879",
     "https://github.com/pytorch/pytorch/issues/157879",
