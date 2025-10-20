@@ -28,13 +28,6 @@
       "rocm"
     ]
   ],
-  "test_3mm_add (__main__.TestTritonDotReduction)": [
-    "165719",
-    "https://github.com/pytorch/pytorch/issues/165719",
-    [
-      "xpu"
-    ]
-  ],
   "test_DistributedDataParallel (__main__.TestDistBackendWithSpawn)": [
     "77317",
     "https://github.com/pytorch/pytorch/issues/77317",
@@ -229,13 +222,6 @@
     [
       "asan",
       "linux"
-    ]
-  ],
-  "test_batchmatmul (__main__.TestTritonDotReduction)": [
-    "165771",
-    "https://github.com/pytorch/pytorch/issues/165771",
-    [
-      "xpu"
     ]
   ],
   "test_benchmark_choice_in_subproc (__main__.TestMaxAutotuneSubproc)": [
