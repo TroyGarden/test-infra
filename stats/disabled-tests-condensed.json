@@ -1048,13 +1048,6 @@
       "slow"
     ]
   ],
-  "test_getitem_call (__main__.TestTorchFunctionMode)": [
-    "162586",
-    "https://github.com/pytorch/pytorch/issues/162586",
-    [
-      "dynamo"
-    ]
-  ],
   "test_globals_change_in_other_file (__main__.ContextlibContextManagerTests)": [
     "148523",
     "https://github.com/pytorch/pytorch/issues/148523",
@@ -1718,6 +1711,13 @@
       "rocm"
     ]
   ],
+  "test_pw_kernel_benchmark (__main__.TestKernelBenchmark)": [
+    "165875",
+    "https://github.com/pytorch/pytorch/issues/165875",
+    [
+      "rocm"
+    ]
+  ],
   "test_pynode_destruction_deadlock (__main__.TestAutogradWithCompiledAutograd)": [
     "121576",
     "https://github.com/pytorch/pytorch/issues/121576",
@@ -2324,6 +2324,14 @@
     [
       "inductor",
       "linux"
+    ]
+  ],
+  "test_var_mean_tile_reduction_True_cuda (__main__.GPUTests)": [
+    "165876",
+    "https://github.com/pytorch/pytorch/issues/165876",
+    [
+      "inductor",
+      "rocm"
     ]
   ],
   "test_var_mean_tile_reduction_True_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
