@@ -1048,6 +1048,13 @@
       "slow"
     ]
   ],
+  "test_getitem_call (__main__.TestTorchFunctionMode)": [
+    "162586",
+    "https://github.com/pytorch/pytorch/issues/162586",
+    [
+      "dynamo"
+    ]
+  ],
   "test_globals_change_in_other_file (__main__.ContextlibContextManagerTests)": [
     "148523",
     "https://github.com/pytorch/pytorch/issues/148523",
@@ -1466,13 +1473,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_modes_handle_first (__main__.TestTorchFunctionMode)": [
-    "162624",
-    "https://github.com/pytorch/pytorch/issues/162624",
-    [
-      "dynamo"
     ]
   ],
   "test_module_and_optimizer_ids (__main__.TestTorchTidyProfiler)": [
@@ -2327,8 +2327,8 @@
     ]
   ],
   "test_var_mean_tile_reduction_True_cuda (__main__.GPUTests)": [
-    "165876",
-    "https://github.com/pytorch/pytorch/issues/165876",
+    "165879",
+    "https://github.com/pytorch/pytorch/issues/165879",
     [
       "inductor",
       "rocm"
