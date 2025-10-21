@@ -508,6 +508,16 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139828",
+    "https://github.com/pytorch/pytorch/issues/139828",
+    [
+      "inductor",
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140503",
     "https://github.com/pytorch/pytorch/issues/140503",
@@ -636,13 +646,6 @@
   "test_cudagraphs_aot_eager_compat_equal (__main__.TestSAC)": [
     "163852",
     "https://github.com/pytorch/pytorch/issues/163852",
-    [
-      "linux"
-    ]
-  ],
-  "test_dataclass_in_module (__main__.ReproTests)": [
-    "156776",
-    "https://github.com/pytorch/pytorch/issues/156776",
     [
       "linux"
     ]
@@ -1037,15 +1040,6 @@
       "slow",
       "win",
       "windows"
-    ]
-  ],
-  "test_get_parameter_dtype (__main__.ReproTests)": [
-    "156598",
-    "https://github.com/pytorch/pytorch/issues/156598",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_getitem_call (__main__.TestTorchFunctionMode)": [
@@ -1475,6 +1469,13 @@
       "slow"
     ]
   ],
+  "test_modes_handle_first (__main__.TestTorchFunctionMode)": [
+    "162624",
+    "https://github.com/pytorch/pytorch/issues/162624",
+    [
+      "dynamo"
+    ]
+  ],
   "test_module_and_optimizer_ids (__main__.TestTorchTidyProfiler)": [
     "87581",
     "https://github.com/pytorch/pytorch/issues/87581",
@@ -1818,13 +1819,6 @@
     "https://github.com/pytorch/pytorch/issues/152367",
     [
       "rocm"
-    ]
-  ],
-  "test_reentrant_mode_idiom (__main__.TestTorchFunctionMode)": [
-    "162677",
-    "https://github.com/pytorch/pytorch/issues/162677",
-    [
-      "dynamo"
     ]
   ],
   "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
@@ -2206,13 +2200,6 @@
       "rocm"
     ]
   ],
-  "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
-    "162704",
-    "https://github.com/pytorch/pytorch/issues/162704",
-    [
-      "dynamo"
-    ]
-  ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
     "114831",
     "https://github.com/pytorch/pytorch/issues/114831",
@@ -2323,14 +2310,6 @@
     "https://github.com/pytorch/pytorch/issues/159348",
     [
       "rocm"
-    ]
-  ],
-  "test_upper_bound_i64_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "159860",
-    "https://github.com/pytorch/pytorch/issues/159860",
-    [
-      "inductor",
-      "linux"
     ]
   ],
   "test_var_mean_tile_reduction_True_cuda (__main__.GPUTests)": [
