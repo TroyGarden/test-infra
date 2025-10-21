@@ -1683,6 +1683,13 @@
       "slow"
     ]
   ],
+  "test_profiler_optimizer_single_tensor_pattern (__main__.TestExperimentalUtils)": [
+    "165949",
+    "https://github.com/pytorch/pytorch/issues/165949",
+    [
+      "dynamo"
+    ]
+  ],
   "test_profiler_remote_cuda (__main__.TensorPipeCudaRpcTest)": [
     "154587",
     "https://github.com/pytorch/pytorch/issues/154587",
