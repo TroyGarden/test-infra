@@ -365,6 +365,13 @@
       "inductor"
     ]
   ],
+  "test_compiler_collectives_type_mismatch (__main__.TestMultiProc)": [
+    "165988",
+    "https://github.com/pytorch/pytorch/issues/165988",
+    [
+      "rocm"
+    ]
+  ],
   "test_complex_half_reference_testing_fft_hfft2_cuda_complex32 (__main__.TestCommonCUDA)": [
     "108743",
     "https://github.com/pytorch/pytorch/issues/108743",
@@ -1042,6 +1049,15 @@
       "windows"
     ]
   ],
+  "test_get_parameter_dtype (__main__.ReproTests)": [
+    "156598",
+    "https://github.com/pytorch/pytorch/issues/156598",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_getitem_call (__main__.TestTorchFunctionMode)": [
     "162586",
     "https://github.com/pytorch/pytorch/issues/162586",
@@ -1433,13 +1449,6 @@
       "rocm"
     ]
   ],
-  "test_mixed_mm_gating (__main__.TestPatternMatcher)": [
-    "147965",
-    "https://github.com/pytorch/pytorch/issues/147965",
-    [
-      "rocm"
-    ]
-  ],
   "test_mlp_contiguous_relu_compile_cutlass (__main__.SparseSemiStructuredTensorCompileTest)": [
     "122352",
     "https://github.com/pytorch/pytorch/issues/122352",
@@ -1633,13 +1642,6 @@
       "rocm"
     ]
   ],
-  "test_pointwise_op_with_tensor_of_scalarlist_overload__foreach_addcmul_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
-    "164822",
-    "https://github.com/pytorch/pytorch/issues/164822",
-    [
-      "rocm"
-    ]
-  ],
   "test_pre_grad (__main__.TestCompilerBisector)": [
     "164462",
     "https://github.com/pytorch/pytorch/issues/164462",
@@ -1819,6 +1821,13 @@
     "https://github.com/pytorch/pytorch/issues/152367",
     [
       "rocm"
+    ]
+  ],
+  "test_reentrant_mode_idiom (__main__.TestTorchFunctionMode)": [
+    "162677",
+    "https://github.com/pytorch/pytorch/issues/162677",
+    [
+      "dynamo"
     ]
   ],
   "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
