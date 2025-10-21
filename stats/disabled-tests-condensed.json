@@ -246,6 +246,13 @@
       "xpu"
     ]
   ],
+  "test_blockwise_nvfp4_with_global_scale_512_128_256_cuda (__main__.TestFP8MatmulCUDA)": [
+    "166027",
+    "https://github.com/pytorch/pytorch/issues/166027",
+    [
+      "rocm"
+    ]
+  ],
   "test_broadcast_with_singleton_dims_cuda (__main__.TritonBlockPointerTestGPU)": [
     "161095",
     "https://github.com/pytorch/pytorch/issues/161095",
