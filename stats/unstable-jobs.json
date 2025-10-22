@@ -62,5 +62,13 @@
     "rocm-mi355",
     "linux-noble-rocm-py3.12-mi355",
     "test (default)"
+  ],
+  "trunk / linux-jammy-py3-clang12-executorch / test (executorch)": [
+    "clee2000",
+    "166072",
+    "https://github.com/pytorch/pytorch/issues/166072",
+    "trunk",
+    "linux-jammy-py3-clang12-executorch",
+    "test (executorch)"
   ]
 }
