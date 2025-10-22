@@ -1126,6 +1126,13 @@
       "linux"
     ]
   ],
+  "test_honor_sm_carveout_cuda (__main__.TestFP8MatmulCUDA)": [
+    "164271",
+    "https://github.com/pytorch/pytorch/issues/164271",
+    [
+      "rocm"
+    ]
+  ],
   "test_honor_sm_carveout_with_triton_tma_carveout0_op_scaled_mm (__main__.TestMaxAutotune)": [
     "161525",
     "https://github.com/pytorch/pytorch/issues/161525",
@@ -1839,6 +1846,15 @@
       "windows"
     ]
   ],
+  "test_relative_import (__main__.ReproTests)": [
+    "156679",
+    "https://github.com/pytorch/pytorch/issues/156679",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_relative_import_no_modulename (__main__.ReproTests)": [
     "156691",
     "https://github.com/pytorch/pytorch/issues/156691",
@@ -2014,6 +2030,13 @@
     "https://github.com/pytorch/pytorch/issues/91492",
     [
       "linux"
+    ]
+  ],
+  "test_return_aux_deprecation_warnings_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "162464",
+    "https://github.com/pytorch/pytorch/issues/162464",
+    [
+      "rocm"
     ]
   ],
   "test_rng (__main__.TestCompilerBisector)": [
