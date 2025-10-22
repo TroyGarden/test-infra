@@ -780,6 +780,15 @@
       "slow"
     ]
   ],
+  "test_dont_dce_rand (__main__.ReproTests)": [
+    "156580",
+    "https://github.com/pytorch/pytorch/issues/156580",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_dropout_deterministic_cuda (__main__.GPUTests)": [
     "133025",
     "https://github.com/pytorch/pytorch/issues/133025",
@@ -1082,6 +1091,15 @@
     "https://github.com/pytorch/pytorch/issues/158443",
     [
       "linux"
+    ]
+  ],
+  "test_graph_break_unsupported_fake (__main__.ReproTests)": [
+    "156629",
+    "https://github.com/pytorch/pytorch/issues/156629",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
@@ -1435,6 +1453,13 @@
     "https://github.com/pytorch/pytorch/issues/147853",
     [
       "linux",
+      "rocm"
+    ]
+  ],
+  "test_mixed_mm_gating (__main__.TestPatternMatcher)": [
+    "147965",
+    "https://github.com/pytorch/pytorch/issues/147965",
+    [
       "rocm"
     ]
   ],
@@ -2005,13 +2030,6 @@
       "linux"
     ]
   ],
-  "test_return_aux_deprecation_warnings_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
-    "162464",
-    "https://github.com/pytorch/pytorch/issues/162464",
-    [
-      "rocm"
-    ]
-  ],
   "test_rng (__main__.TestCompilerBisector)": [
     "139590",
     "https://github.com/pytorch/pytorch/issues/139590",
@@ -2216,6 +2234,14 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_toy_model_dynamic_batch (__main__.FxGraphRunnableTest)": [
+    "161580",
+    "https://github.com/pytorch/pytorch/issues/161580",
+    [
+      "asan",
+      "linux"
     ]
   ],
   "test_trace_buffer_slice (__main__.TestFX)": [
