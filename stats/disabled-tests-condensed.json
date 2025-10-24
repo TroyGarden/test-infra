@@ -875,7 +875,9 @@
     "145017",
     "https://github.com/pytorch/pytorch/issues/145017",
     [
-      "rocm"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
@@ -1394,6 +1396,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_memory_stats_multigpu (__main__.TestCudaMultiGPU)": [
+    "129860",
+    "https://github.com/pytorch/pytorch/issues/129860",
+    [
+      "linux"
     ]
   ],
   "test_mempool_ctx_multithread (__main__.TestMemPool)": [
@@ -1965,15 +1974,6 @@
       "mac",
       "macos",
       "rocm"
-    ]
-  ],
-  "test_remove_noop_slice_cuda (__main__.GPUTests)": [
-    "151383",
-    "https://github.com/pytorch/pytorch/issues/151383",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_remove_noop_slice_scatter_cpu (__main__.CpuTests)": [
