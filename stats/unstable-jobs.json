@@ -70,13 +70,5 @@
     "trunk",
     "linux-jammy-py3-clang12-executorch",
     "test (executorch)"
-  ],
-  "vllm-test / ci-vllm-test / build": [
-    "yangw-dev",
-    "164362",
-    "https://github.com/pytorch/pytorch/issues/164362",
-    "vllm-test",
-    "ci-vllm-test",
-    "build"
   ]
 }
