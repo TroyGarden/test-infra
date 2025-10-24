@@ -643,13 +643,6 @@
       "rocm"
     ]
   ],
-  "test_cudagraphs_aot_eager_compat_equal (__main__.TestSAC)": [
-    "163852",
-    "https://github.com/pytorch/pytorch/issues/163852",
-    [
-      "linux"
-    ]
-  ],
   "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
     "155714",
     "https://github.com/pytorch/pytorch/issues/155714",
