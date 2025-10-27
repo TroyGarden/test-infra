@@ -216,6 +216,13 @@
       "rocm"
     ]
   ],
+  "test_binomial_sample (__main__.TestDistributions)": [
+    "165720",
+    "https://github.com/pytorch/pytorch/issues/165720",
+    [
+      "xpu"
+    ]
+  ],
   "test_broadcast_with_singleton_dims_cuda (__main__.TritonBlockPointerTestGPU)": [
     "161095",
     "https://github.com/pytorch/pytorch/issues/161095",
@@ -1454,6 +1461,15 @@
       "windows"
     ]
   ],
+  "test_module_to (__main__.FakeTensorOperatorInvariants)": [
+    "165387",
+    "https://github.com/pytorch/pytorch/issues/165387",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_mps_memory_leak_detection (__main__.TestMemoryLeak)": [
     "160550",
     "https://github.com/pytorch/pytorch/issues/160550",
@@ -1469,9 +1485,23 @@
       "dynamo"
     ]
   ],
+  "test_nan_assert_bfloat16 (__main__.ProcessGroupNCCLGroupTest)": [
+    "166066",
+    "https://github.com/pytorch/pytorch/issues/166066",
+    [
+      "linux"
+    ]
+  ],
   "test_nan_assert_float16 (__main__.ProcessGroupNCCLGroupTest)": [
     "164426",
     "https://github.com/pytorch/pytorch/issues/164426",
+    [
+      "linux"
+    ]
+  ],
+  "test_nan_assert_float64 (__main__.ProcessGroupNCCLGroupTest)": [
+    "166067",
+    "https://github.com/pytorch/pytorch/issues/166067",
     [
       "linux"
     ]
@@ -2136,6 +2166,13 @@
     "https://github.com/pytorch/pytorch/issues/164337",
     [
       "rocm"
+    ]
+  ],
+  "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
+    "162704",
+    "https://github.com/pytorch/pytorch/issues/162704",
+    [
+      "dynamo"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
