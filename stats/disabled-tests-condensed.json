@@ -84,14 +84,6 @@
       "mac"
     ]
   ],
-  "test_all_reduce_collective (__main__.FxGraphRunnableTest)": [
-    "164425",
-    "https://github.com/pytorch/pytorch/issues/164425",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_allgather_stress_cuda (__main__.ProcessGroupGlooFRTest)": [
     "155711",
     "https://github.com/pytorch/pytorch/issues/155711",
@@ -207,14 +199,6 @@
     "https://github.com/pytorch/pytorch/issues/70755",
     [
       "mac"
-    ]
-  ],
-  "test_basic_tensor_add (__main__.FxGraphRunnableTest)": [
-    "162554",
-    "https://github.com/pytorch/pytorch/issues/162554",
-    [
-      "asan",
-      "linux"
     ]
   ],
   "test_benchmark_choice_in_subproc (__main__.TestMaxAutotuneSubproc)": [
@@ -907,22 +891,6 @@
       "linux"
     ]
   ],
-  "test_flop_counter_op_options1_cuda_float16 (__main__.TestSchedulerCUDA)": [
-    "153494",
-    "https://github.com/pytorch/pytorch/issues/153494",
-    [
-      "rocm"
-    ]
-  ],
-  "test_flop_counter_op_options1_cuda_float32 (__main__.TestSchedulerCUDA)": [
-    "153495",
-    "https://github.com/pytorch/pytorch/issues/153495",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_fn_fwgrad_bwgrad_cholesky_solve_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
     "165386",
     "https://github.com/pytorch/pytorch/issues/165386",
@@ -1335,13 +1303,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_memory_format_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
-    "107426",
-    "https://github.com/pytorch/pytorch/issues/107426",
-    [
-      "linux"
     ]
   ],
   "test_memory_format_nn_ConvTranspose2d_cuda_complex32 (__main__.TestModuleCUDA)": [
