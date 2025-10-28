@@ -290,15 +290,6 @@
       "linux"
     ]
   ],
-  "test_compile_kernel_advanced (__main__.TestCompileKernel)": [
-    "157172",
-    "https://github.com/pytorch/pytorch/issues/157172",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_compile_selective_checkpoint_custom_rule_cuda (__main__.ActivationCheckpointingViaTagsTestsCUDA)": [
     "161923",
     "https://github.com/pytorch/pytorch/issues/161923",
@@ -868,13 +859,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape0_cuda (__main__.TestFlexAttentionCUDA)": [
-    "163717",
-    "https://github.com/pytorch/pytorch/issues/163717",
-    [
-      "linux"
     ]
   ],
   "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape1_cuda (__main__.TestFlexAttentionCUDA)": [
@@ -1570,6 +1554,13 @@
       "slow"
     ]
   ],
+  "test_ops_append_to_existing_file_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "165603",
+    "https://github.com/pytorch/pytorch/issues/165603",
+    [
+      "rocm"
+    ]
+  ],
   "test_optional_list (test_jit.TestScript)": [
     "91484",
     "https://github.com/pytorch/pytorch/issues/91484",
@@ -1937,6 +1928,15 @@
       "linux",
       "mac",
       "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
+    "151541",
+    "https://github.com/pytorch/pytorch/issues/151541",
+    [
+      "linux",
       "rocm",
       "slow"
     ]
