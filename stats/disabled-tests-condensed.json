@@ -2313,5 +2313,12 @@
     [
       "rocm"
     ]
+  ],
+  "test_without_enable_profiler_in_child_thread_cuda (__main__.CppThreadTestCUDA)": [
+    "166422",
+    "https://github.com/pytorch/pytorch/issues/166422",
+    [
+      "rocm"
+    ]
   ]
 }
