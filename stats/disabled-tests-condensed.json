@@ -861,6 +861,13 @@
       "rocm"
     ]
   ],
+  "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape0_cuda (__main__.TestFlexAttentionCUDA)": [
+    "163717",
+    "https://github.com/pytorch/pytorch/issues/163717",
+    [
+      "linux"
+    ]
+  ],
   "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape1_cuda (__main__.TestFlexAttentionCUDA)": [
     "161503",
     "https://github.com/pytorch/pytorch/issues/161503",
@@ -1510,13 +1517,6 @@
       "linux"
     ]
   ],
-  "test_non_contiguous_tensors_nn_ConvTranspose1d_cuda_complex32 (__main__.TestModuleCUDA)": [
-    "81732",
-    "https://github.com/pytorch/pytorch/issues/81732",
-    [
-      "linux"
-    ]
-  ],
   "test_noncontiguous_samples_cholesky_solve_cuda_complex64 (__main__.TestCommonCUDA)": [
     "165294",
     "https://github.com/pytorch/pytorch/issues/165294",
@@ -1719,13 +1719,6 @@
     "https://github.com/pytorch/pytorch/issues/84937",
     [
       "asan"
-    ]
-  ],
-  "test_record_stream_cuda_float32 (__main__.TestNestedTensorSubclassCUDA)": [
-    "138557",
-    "https://github.com/pytorch/pytorch/issues/138557",
-    [
-      "linux"
     ]
   ],
   "test_record_stream_on_shifted_view (__main__.TestCuda)": [
