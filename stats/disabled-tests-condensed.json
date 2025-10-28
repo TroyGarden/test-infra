@@ -208,6 +208,13 @@
       "inductor"
     ]
   ],
+  "test_big_num_tensors__foreach_max_use_cuda_graph_False_w_empty_True_cuda_float64 (__main__.TestForeachCUDA)": [
+    "166435",
+    "https://github.com/pytorch/pytorch/issues/166435",
+    [
+      "rocm"
+    ]
+  ],
   "test_binary_redirect_and_tee (__main__.StartProcessesListAsBinaryTest)": [
     "163230",
     "https://github.com/pytorch/pytorch/issues/163230",
@@ -928,6 +935,15 @@
       "rocm"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bfloat16 (__main__.TestForeachCUDA)": [
+    "150119",
+    "https://github.com/pytorch/pytorch/issues/150119",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_forward_mode_AD_cholesky_solve_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
     "164194",
     "https://github.com/pytorch/pytorch/issues/164194",
@@ -1043,13 +1059,6 @@
       "asan",
       "linux",
       "rocm"
-    ]
-  ],
-  "test_hessian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
-    "153644",
-    "https://github.com/pytorch/pytorch/issues/153644",
-    [
-      "dynamo"
     ]
   ],
   "test_hoist_conv_packed_params (__main__.TestOptimizer)": [
@@ -1690,14 +1699,6 @@
       "asan",
       "linux",
       "slow"
-    ]
-  ],
-  "test_quantized_conv_no_asan_failures (__main__.TestOptimizer)": [
-    "157254",
-    "https://github.com/pytorch/pytorch/issues/157254",
-    [
-      "mac",
-      "macos"
     ]
   ],
   "test_qwen2_7b_sdpa_input_alignment_requires_recompile (__main__.CudaReproTests)": [
