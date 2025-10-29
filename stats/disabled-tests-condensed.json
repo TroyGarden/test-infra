@@ -77,6 +77,15 @@
       "rocm"
     ]
   ],
+  "test_all_gather_collective (__main__.FxGraphRunnableTest)": [
+    "166484",
+    "https://github.com/pytorch/pytorch/issues/166484",
+    [
+      "asan",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_all_reduce_coalesced_group_min (__main__.TestDistBackendWithSpawn)": [
     "70754",
     "https://github.com/pytorch/pytorch/issues/70754",
@@ -228,6 +237,15 @@
     "https://github.com/pytorch/pytorch/issues/165720",
     [
       "xpu"
+    ]
+  ],
+  "test_broadcast_add_dynamic (__main__.FxGraphRunnableTest)": [
+    "159112",
+    "https://github.com/pytorch/pytorch/issues/159112",
+    [
+      "asan",
+      "linux",
+      "rocm"
     ]
   ],
   "test_broadcast_with_singleton_dims_cuda (__main__.TritonBlockPointerTestGPU)": [
@@ -868,6 +886,13 @@
       "rocm"
     ]
   ],
+  "test_flex_attention_logging_cuda (__main__.TestLearnableBiasesCUDA)": [
+    "166489",
+    "https://github.com/pytorch/pytorch/issues/166489",
+    [
+      "rocm"
+    ]
+  ],
   "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape0_cuda (__main__.TestFlexAttentionCUDA)": [
     "163717",
     "https://github.com/pytorch/pytorch/issues/163717",
@@ -938,6 +963,15 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bfloat16 (__main__.TestForeachCUDA)": [
     "150119",
     "https://github.com/pytorch/pytorch/issues/150119",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bool (__main__.TestForeachCUDA)": [
+    "150120",
+    "https://github.com/pytorch/pytorch/issues/150120",
     [
       "linux",
       "rocm",
@@ -1061,6 +1095,13 @@
       "rocm"
     ]
   ],
+  "test_hessian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
+    "153644",
+    "https://github.com/pytorch/pytorch/issues/153644",
+    [
+      "dynamo"
+    ]
+  ],
   "test_hoist_conv_packed_params (__main__.TestOptimizer)": [
     "157247",
     "https://github.com/pytorch/pytorch/issues/157247",
@@ -1142,6 +1183,14 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
+    ]
+  ],
+  "test_invalid_status_for_legacy_api (__main__.TestCuda)": [
+    "157110",
+    "https://github.com/pytorch/pytorch/issues/157110",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
@@ -1455,6 +1504,14 @@
       "slow"
     ]
   ],
+  "test_mps_event_module (__main__.TestMPS)": [
+    "145052",
+    "https://github.com/pytorch/pytorch/issues/145052",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_mps_memory_leak_detection (__main__.TestMemoryLeak)": [
     "160550",
     "https://github.com/pytorch/pytorch/issues/160550",
@@ -1584,9 +1641,23 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_lgamma_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
+    "166485",
+    "https://github.com/pytorch/pytorch/issues/166485",
+    [
+      "rocm"
+    ]
+  ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
     "152221",
     "https://github.com/pytorch/pytorch/issues/152221",
+    [
+      "rocm"
+    ]
+  ],
+  "test_pointwise_op_with_tensor_of_scalarlist_overload__foreach_addcdiv_is_fastpath_True_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "166486",
+    "https://github.com/pytorch/pytorch/issues/166486",
     [
       "rocm"
     ]
@@ -1699,6 +1770,14 @@
       "asan",
       "linux",
       "slow"
+    ]
+  ],
+  "test_quantized_conv_no_asan_failures (__main__.TestOptimizer)": [
+    "157254",
+    "https://github.com/pytorch/pytorch/issues/157254",
+    [
+      "mac",
+      "macos"
     ]
   ],
   "test_qwen2_7b_sdpa_input_alignment_requires_recompile (__main__.CudaReproTests)": [
@@ -2170,6 +2249,14 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_toy_model_basic (__main__.FxGraphRunnableTest)": [
+    "163595",
+    "https://github.com/pytorch/pytorch/issues/163595",
+    [
+      "asan",
+      "linux"
     ]
   ],
   "test_toy_model_dynamic_batch (__main__.FxGraphRunnableTest)": [
