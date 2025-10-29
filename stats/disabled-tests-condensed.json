@@ -324,22 +324,6 @@
       "slow"
     ]
   ],
-  "test_compile_selective_checkpoint_custom_rule_cuda (__main__.ActivationCheckpointingViaTagsTestsCUDA)": [
-    "161923",
-    "https://github.com/pytorch/pytorch/issues/161923",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
-  "test_compile_selective_checkpoint_must_not_recompute_gemm_cuda (__main__.ActivationCheckpointingViaTagsTestsCUDA)": [
-    "162120",
-    "https://github.com/pytorch/pytorch/issues/162120",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_compile_selective_checkpoint_must_not_recompute_gemm_no_functionalization_cuda (__main__.ActivationCheckpointingViaTagsTestsCUDA)": [
     "165778",
     "https://github.com/pytorch/pytorch/issues/165778",
@@ -906,6 +890,7 @@
     "166489",
     "https://github.com/pytorch/pytorch/issues/166489",
     [
+      "linux",
       "rocm"
     ]
   ],
@@ -1216,6 +1201,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_jacobian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
+    "153707",
+    "https://github.com/pytorch/pytorch/issues/153707",
+    [
+      "dynamo"
     ]
   ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
