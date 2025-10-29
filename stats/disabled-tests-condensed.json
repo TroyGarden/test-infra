@@ -1219,6 +1219,13 @@
       "rocm"
     ]
   ],
+  "test_layer_norm_bwd_no_bias_shape0 (__main__.NoMixOrderReductionTest)": [
+    "166503",
+    "https://github.com/pytorch/pytorch/issues/166503",
+    [
+      "xpu"
+    ]
+  ],
   "test_like_channels_last_cpu (__main__.CpuTritonTests)": [
     "139149",
     "https://github.com/pytorch/pytorch/issues/139149",
