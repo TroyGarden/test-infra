@@ -2045,6 +2045,13 @@
       "rocm"
     ]
   ],
+  "test_rms_norm_bwd_float32_shape1 (__main__.NoMixOrderReductionTest)": [
+    "166491",
+    "https://github.com/pytorch/pytorch/issues/166491",
+    [
+      "xpu"
+    ]
+  ],
   "test_rng (__main__.TestCompilerBisector)": [
     "139590",
     "https://github.com/pytorch/pytorch/issues/139590",
