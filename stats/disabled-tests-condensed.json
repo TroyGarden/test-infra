@@ -1841,13 +1841,6 @@
       "asan"
     ]
   ],
-  "test_record_stream_on_shifted_view (__main__.TestCuda)": [
-    "120318",
-    "https://github.com/pytorch/pytorch/issues/120318",
-    [
-      "rocm"
-    ]
-  ],
   "test_reduce_full_group_max (__main__.TestDistBackendWithSpawn)": [
     "75168",
     "https://github.com/pytorch/pytorch/issues/75168",
