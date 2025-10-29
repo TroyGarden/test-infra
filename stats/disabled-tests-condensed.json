@@ -315,6 +315,15 @@
       "linux"
     ]
   ],
+  "test_compile_kernel_advanced (__main__.TestCompileKernel)": [
+    "157172",
+    "https://github.com/pytorch/pytorch/issues/157172",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_compile_selective_checkpoint_custom_rule_cuda (__main__.ActivationCheckpointingViaTagsTestsCUDA)": [
     "161923",
     "https://github.com/pytorch/pytorch/issues/161923",
@@ -722,6 +731,13 @@
       "rocm"
     ]
   ],
+  "test_do_bench_using_profiling (__main__.TestBench)": [
+    "166505",
+    "https://github.com/pytorch/pytorch/issues/166505",
+    [
+      "rocm"
+    ]
+  ],
   "test_do_not_guard_unbacked_inputs (__main__.TestUnbacked)": [
     "163953",
     "https://github.com/pytorch/pytorch/issues/163953",
@@ -972,6 +988,15 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bool (__main__.TestForeachCUDA)": [
     "150120",
     "https://github.com/pytorch/pytorch/issues/150120",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "150141",
+    "https://github.com/pytorch/pytorch/issues/150141",
     [
       "linux",
       "rocm",
@@ -1648,9 +1673,25 @@
       "linux"
     ]
   ],
+  "test_parity__foreach_acos_fastpath_outplace_cuda_complex128 (__main__.TestForeachCUDA)": [
+    "151093",
+    "https://github.com/pytorch/pytorch/issues/151093",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_parity__foreach_lgamma_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
     "166485",
     "https://github.com/pytorch/pytorch/issues/166485",
+    [
+      "rocm"
+    ]
+  ],
+  "test_parity__foreach_lgamma_fastpath_outplace_cuda_float64 (__main__.TestForeachCUDA)": [
+    "166506",
+    "https://github.com/pytorch/pytorch/issues/166506",
     [
       "rocm"
     ]
