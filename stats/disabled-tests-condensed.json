@@ -77,15 +77,6 @@
       "rocm"
     ]
   ],
-  "test_all_gather_collective (__main__.FxGraphRunnableTest)": [
-    "166484",
-    "https://github.com/pytorch/pytorch/issues/166484",
-    [
-      "asan",
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_all_reduce_coalesced_group_min (__main__.TestDistBackendWithSpawn)": [
     "70754",
     "https://github.com/pytorch/pytorch/issues/70754",
@@ -230,13 +221,6 @@
     [
       "linux",
       "rocm"
-    ]
-  ],
-  "test_binomial_sample (__main__.TestDistributions)": [
-    "165720",
-    "https://github.com/pytorch/pytorch/issues/165720",
-    [
-      "xpu"
     ]
   ],
   "test_broadcast_add_dynamic (__main__.FxGraphRunnableTest)": [
@@ -853,15 +837,6 @@
   "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionCudaTest)": [
     "145017",
     "https://github.com/pytorch/pytorch/issues/145017",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionGpuTest)": [
-    "166601",
-    "https://github.com/pytorch/pytorch/issues/166601",
     [
       "linux",
       "rocm",
@@ -2272,13 +2247,6 @@
     "https://github.com/pytorch/pytorch/issues/164337",
     [
       "rocm"
-    ]
-  ],
-  "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
-    "162704",
-    "https://github.com/pytorch/pytorch/issues/162704",
-    [
-      "dynamo"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
