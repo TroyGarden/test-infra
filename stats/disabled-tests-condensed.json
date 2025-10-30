@@ -262,6 +262,13 @@
       "mac"
     ]
   ],
+  "test_caching_parametrization_with_transfer_parametrizations_and_params_swap_True (__main__.TestNNParametrization)": [
+    "166637",
+    "https://github.com/pytorch/pytorch/issues/166637",
+    [
+      "dynamo"
+    ]
+  ],
   "test_call_count_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
     "155953",
     "https://github.com/pytorch/pytorch/issues/155953",
@@ -597,7 +604,8 @@
     "https://github.com/pytorch/pytorch/issues/166617",
     [
       "linux",
-      "rocm"
+      "rocm",
+      "slow"
     ]
   ],
   "test_cuda_assert_should_not_stop_common_distributed_test_suite_cuda (__main__.TestTestingCUDA)": [
@@ -1179,6 +1187,15 @@
       "rocm"
     ]
   ],
+  "test_inductor_all_to_all_single (__main__.CompileTest)": [
+    "147795",
+    "https://github.com/pytorch/pytorch/issues/147795",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inlined_optimized_graph (__main__.TestTEFuserDynamic)": [
     "156438",
     "https://github.com/pytorch/pytorch/issues/156438",
@@ -1228,22 +1245,6 @@
       "rocm",
       "win",
       "windows"
-    ]
-  ],
-  "test_kineto_profiler_with_environment_variable (__main__.SimpleKinetoInitializationTest)": [
-    "151267",
-    "https://github.com/pytorch/pytorch/issues/151267",
-    [
-      "linux"
-    ]
-  ],
-  "test_kineto_profiler_with_environment_variable (__main__.TestProfiler)": [
-    "107383",
-    "https://github.com/pytorch/pytorch/issues/107383",
-    [
-      "dynamo",
-      "linux",
-      "rocm"
     ]
   ],
   "test_like_channels_last_cpu (__main__.CpuTritonTests)": [
@@ -2413,6 +2414,14 @@
     "https://github.com/pytorch/pytorch/issues/159348",
     [
       "rocm"
+    ]
+  ],
+  "test_upper_bound_i64_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "159860",
+    "https://github.com/pytorch/pytorch/issues/159860",
+    [
+      "inductor",
+      "linux"
     ]
   ],
   "test_var_mean_tile_reduction_True_cuda (__main__.GPUTests)": [
