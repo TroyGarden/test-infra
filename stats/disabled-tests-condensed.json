@@ -852,6 +852,13 @@
       "slow"
     ]
   ],
+  "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionGpuTest)": [
+    "166601",
+    "https://github.com/pytorch/pytorch/issues/166601",
+    [
+      "rocm"
+    ]
+  ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
     "123536",
     "https://github.com/pytorch/pytorch/issues/123536",
@@ -911,13 +918,6 @@
   "test_fn_fwgrad_bwgrad_cholesky_solve_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
     "165386",
     "https://github.com/pytorch/pytorch/issues/165386",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fn_fwgrad_bwgrad_cholesky_solve_cuda_float64 (__main__.TestFwdGradientsCUDA)": [
-    "165602",
-    "https://github.com/pytorch/pytorch/issues/165602",
     [
       "rocm"
     ]
@@ -1163,6 +1163,15 @@
   "test_inductor_all_gather_into_tensor_coalesced (__main__.CompileTest)": [
     "146806",
     "https://github.com/pytorch/pytorch/issues/146806",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_inductor_all_gather_into_tensor_single (__main__.CompileTest)": [
+    "147707",
+    "https://github.com/pytorch/pytorch/issues/147707",
     [
       "inductor",
       "linux",
