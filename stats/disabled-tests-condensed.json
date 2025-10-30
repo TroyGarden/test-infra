@@ -997,6 +997,20 @@
       "slow"
     ]
   ],
+  "test_forward_mode_AD_cholesky_solve_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
+    "164194",
+    "https://github.com/pytorch/pytorch/issues/164194",
+    [
+      "rocm"
+    ]
+  ],
+  "test_forward_mode_AD_cholesky_solve_cuda_float64 (__main__.TestFwdGradientsCUDA)": [
+    "164235",
+    "https://github.com/pytorch/pytorch/issues/164235",
+    [
+      "rocm"
+    ]
+  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -1206,6 +1220,14 @@
     "https://github.com/pytorch/pytorch/issues/115859",
     [
       "rocm"
+    ]
+  ],
+  "test_invalid_status_for_legacy_api (__main__.TestCuda)": [
+    "157110",
+    "https://github.com/pytorch/pytorch/issues/157110",
+    [
+      "linux",
+      "slow"
     ]
   ],
   "test_jacobian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
@@ -1755,6 +1777,20 @@
     "https://github.com/pytorch/pytorch/issues/125365",
     [
       "linux"
+    ]
+  ],
+  "test_progressive (__main__.GPUTests)": [
+    "157724",
+    "https://github.com/pytorch/pytorch/issues/157724",
+    [
+      "rocm"
+    ]
+  ],
+  "test_progressive (__main__.TestSubprocess)": [
+    "157788",
+    "https://github.com/pytorch/pytorch/issues/157788",
+    [
+      "rocm"
     ]
   ],
   "test_pw_kernel_benchmark (__main__.TestKernelBenchmark)": [
