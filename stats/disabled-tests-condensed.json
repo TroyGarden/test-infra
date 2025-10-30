@@ -548,15 +548,6 @@
       "rocm"
     ]
   ],
-  "test_conv3d_unary_dynamic_shapes_cpu (__main__.TestDynamicPatternMatcherGenericCPU)": [
-    "158329",
-    "https://github.com/pytorch/pytorch/issues/158329",
-    [
-      "asan",
-      "linux",
-      "slow"
-    ]
-  ],
   "test_conv_stride_constraints (__main__.CPUReproTests)": [
     "107774",
     "https://github.com/pytorch/pytorch/issues/107774",
@@ -599,6 +590,14 @@
     "https://github.com/pytorch/pytorch/issues/106557",
     [
       "macos"
+    ]
+  ],
+  "test_create_rand_mask_from_inputs (__main__.ReproTests)": [
+    "166617",
+    "https://github.com/pytorch/pytorch/issues/166617",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_cuda_assert_should_not_stop_common_distributed_test_suite_cuda (__main__.TestTestingCUDA)": [
@@ -856,7 +855,9 @@
     "166601",
     "https://github.com/pytorch/pytorch/issues/166601",
     [
-      "rocm"
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
@@ -1412,6 +1413,14 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_mempool_limited_memory_with_allocator (__main__.TestMemPool)": [
+    "157256",
+    "https://github.com/pytorch/pytorch/issues/157256",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_mempool_with_allocator (__main__.TestMemPool)": [
@@ -2047,6 +2056,13 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_repeat_graph_capture_cublas_workspace_memory (__main__.TestCuda)": [
+    "144922",
+    "https://github.com/pytorch/pytorch/issues/144922",
+    [
+      "rocm"
     ]
   ],
   "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
