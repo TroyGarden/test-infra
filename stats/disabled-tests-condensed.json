@@ -331,14 +331,6 @@
       "slow"
     ]
   ],
-  "test_compile_selective_checkpoint_must_not_recompute_gemm_no_functionalization_cuda (__main__.ActivationCheckpointingViaTagsTestsCUDA)": [
-    "165778",
-    "https://github.com/pytorch/pytorch/issues/165778",
-    [
-      "linux",
-      "slow"
-    ]
-  ],
   "test_compiled_autograd_attribution (__main__.StructuredTraceTest)": [
     "156921",
     "https://github.com/pytorch/pytorch/issues/156921",
