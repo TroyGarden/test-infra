@@ -636,6 +636,14 @@
       "rocm"
     ]
   ],
+  "test_data_ptr_access_fails_in_backward_dynamic_shapes (__main__.DynamicShapesAotAutogradFallbackTests)": [
+    "166683",
+    "https://github.com/pytorch/pytorch/issues/166683",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
     "155714",
     "https://github.com/pytorch/pytorch/issues/155714",
@@ -1212,6 +1220,15 @@
       "rocm"
     ]
   ],
+  "test_inductor_broadcast (__main__.CompileTest)": [
+    "147816",
+    "https://github.com/pytorch/pytorch/issues/147816",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_inlined_optimized_graph (__main__.TestTEFuserDynamic)": [
     "156438",
     "https://github.com/pytorch/pytorch/issues/156438",
@@ -1570,6 +1587,13 @@
     [
       "mac",
       "macos"
+    ]
+  ],
+  "test_multinomial (__main__.CudaGraphTreeTests)": [
+    "166681",
+    "https://github.com/pytorch/pytorch/issues/166681",
+    [
+      "linux"
     ]
   ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
