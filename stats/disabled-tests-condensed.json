@@ -570,14 +570,6 @@
       "linux"
     ]
   ],
-  "test_conv_unary_fusion_ops (__main__.TestMkldnnFusion)": [
-    "161579",
-    "https://github.com/pytorch/pytorch/issues/161579",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_conv_with_as_strided_cpu (__main__.FreezingCpuTests)": [
     "107893",
     "https://github.com/pytorch/pytorch/issues/107893",
@@ -774,15 +766,6 @@
       "linux"
     ]
   ],
-  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
-    "156570",
-    "https://github.com/pytorch/pytorch/issues/156570",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dont_dce_rand (__main__.ReproTests)": [
     "156580",
     "https://github.com/pytorch/pytorch/issues/156580",
@@ -790,14 +773,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_dropout_deterministic_cuda (__main__.GPUTests)": [
-    "133025",
-    "https://github.com/pytorch/pytorch/issues/133025",
-    [
-      "inductor",
-      "linux"
     ]
   ],
   "test_dtensor_compile_redistribute (__main__.FxGraphRunnableTest)": [
@@ -937,13 +912,6 @@
   "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape0_cuda (__main__.TestFlexAttentionCUDA)": [
     "163717",
     "https://github.com/pytorch/pytorch/issues/163717",
-    [
-      "linux"
-    ]
-  ],
-  "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape1_cuda (__main__.TestFlexAttentionCUDA)": [
-    "161503",
-    "https://github.com/pytorch/pytorch/issues/161503",
     [
       "linux"
     ]
@@ -1590,8 +1558,8 @@
     ]
   ],
   "test_multinomial (__main__.CudaGraphTreeTests)": [
-    "166681",
-    "https://github.com/pytorch/pytorch/issues/166681",
+    "166682",
+    "https://github.com/pytorch/pytorch/issues/166682",
     [
       "linux"
     ]
@@ -1752,15 +1720,6 @@
     "https://github.com/pytorch/pytorch/issues/166486",
     [
       "rocm"
-    ]
-  ],
-  "test_pre_grad (__main__.TestCompilerBisector)": [
-    "164462",
-    "https://github.com/pytorch/pytorch/issues/164462",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
