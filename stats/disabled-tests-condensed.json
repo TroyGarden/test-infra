@@ -562,14 +562,6 @@
       "rocm"
     ]
   ],
-  "test_conv_transpose_unary_fusion_ops (__main__.TestMkldnnFusion)": [
-    "158115",
-    "https://github.com/pytorch/pytorch/issues/158115",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_conv_with_as_strided_cpu (__main__.FreezingCpuTests)": [
     "107893",
     "https://github.com/pytorch/pytorch/issues/107893",
@@ -764,6 +756,15 @@
     "https://github.com/pytorch/pytorch/issues/98259",
     [
       "linux"
+    ]
+  ],
+  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
+    "156570",
+    "https://github.com/pytorch/pytorch/issues/156570",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_dont_dce_rand (__main__.ReproTests)": [
@@ -1233,6 +1234,15 @@
   "test_inductor_broadcast (__main__.CompileTest)": [
     "147816",
     "https://github.com/pytorch/pytorch/issues/147816",
+    [
+      "inductor",
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_inductor_inplace_op_on_view (__main__.CompileTest)": [
+    "147852",
+    "https://github.com/pytorch/pytorch/issues/147852",
     [
       "inductor",
       "linux",
@@ -1762,6 +1772,15 @@
     "https://github.com/pytorch/pytorch/issues/166486",
     [
       "rocm"
+    ]
+  ],
+  "test_pre_grad (__main__.TestCompilerBisector)": [
+    "164462",
+    "https://github.com/pytorch/pytorch/issues/164462",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
@@ -2492,13 +2511,6 @@
   "test_vmap_exhaustive_cholesky_solve_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "164556",
     "https://github.com/pytorch/pytorch/issues/164556",
-    [
-      "rocm"
-    ]
-  ],
-  "test_vmapjvpvjp_cholesky_solve_cuda_float32 (__main__.TestOperatorsCUDA)": [
-    "164217",
-    "https://github.com/pytorch/pytorch/issues/164217",
     [
       "rocm"
     ]
