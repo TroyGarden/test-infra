@@ -1246,13 +1246,6 @@
     "https://github.com/pytorch/pytorch/issues/156438",
     []
   ],
-  "test_int8_woq_mm_cuda_batch_size_17_mid_dim_8_in_features_128_out_features_65_cuda_bfloat16 (__main__.TestSelectAlgorithmCudaCUDA)": [
-    "163228",
-    "https://github.com/pytorch/pytorch/issues/163228",
-    [
-      "rocm"
-    ]
-  ],
   "test_interaction_with_triton_template (__main__.LoopOrderingTest)": [
     "162462",
     "https://github.com/pytorch/pytorch/issues/162462",
@@ -1648,13 +1641,6 @@
     "https://github.com/pytorch/pytorch/issues/165292",
     [
       "rocm"
-    ]
-  ],
-  "test_nested_masked_select_cpu (__main__.TestNestedTensorDeviceTypeCPU)": [
-    "165389",
-    "https://github.com/pytorch/pytorch/issues/165389",
-    [
-      "dynamo"
     ]
   ],
   "test_new_subgroups (__main__.TestDistBackendWithSpawn)": [
