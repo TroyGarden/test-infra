@@ -338,18 +338,6 @@
       "slow"
     ]
   ],
-  "test_compiled_autograd_attribution (__main__.StructuredTraceTest)": [
-    "156921",
-    "https://github.com/pytorch/pytorch/issues/156921",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_compiler_collectives_automatic_dynamic_tensor (__main__.TestMultiProc)": [
     "152944",
     "https://github.com/pytorch/pytorch/issues/152944",
@@ -1639,13 +1627,6 @@
   "test_nccl_watchdog_cudagraph (__main__.ProcessGroupNCCLOpTest)": [
     "157896",
     "https://github.com/pytorch/pytorch/issues/157896",
-    [
-      "rocm"
-    ]
-  ],
-  "test_neg_view_cholesky_inverse_cuda_float64 (__main__.TestMathBitsCUDA)": [
-    "165292",
-    "https://github.com/pytorch/pytorch/issues/165292",
     [
       "rocm"
     ]
