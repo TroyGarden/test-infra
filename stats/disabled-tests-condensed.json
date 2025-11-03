@@ -28,6 +28,13 @@
       "rocm"
     ]
   ],
+  "test_3layer_split_reduction (__main__.NoMixOrderReductionTest)": [
+    "166836",
+    "https://github.com/pytorch/pytorch/issues/166836",
+    [
+      "rocm"
+    ]
+  ],
   "test_DistributedDataParallel (__main__.TestDistBackendWithSpawn)": [
     "77317",
     "https://github.com/pytorch/pytorch/issues/77317",
