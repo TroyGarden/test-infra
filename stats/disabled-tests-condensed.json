@@ -1650,6 +1650,13 @@
       "rocm"
     ]
   ],
+  "test_nested_masked_select_cpu (__main__.TestNestedTensorDeviceTypeCPU)": [
+    "165389",
+    "https://github.com/pytorch/pytorch/issues/165389",
+    [
+      "dynamo"
+    ]
+  ],
   "test_new_subgroups (__main__.TestDistBackendWithSpawn)": [
     "164195",
     "https://github.com/pytorch/pytorch/issues/164195",
