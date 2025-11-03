@@ -31,6 +31,14 @@
     "cuda12.8-py3.10-gcc9-sm80",
     "test (inductor_torchbench_smoketest_perf)"
   ],
+  "inductor-rocm / rocm-py3.10-inductor / test (inductor)": [
+    "clee2000",
+    "155917",
+    "https://github.com/pytorch/pytorch/issues/155917",
+    "inductor-rocm",
+    "rocm-py3.10-inductor",
+    "test (inductor)"
+  ],
   "periodic / linux-jammy-cuda12.4-py3.10-gcc11 / test (legacy_nvidia_driver)": [
     "atalman",
     "163657",
@@ -48,9 +56,9 @@
     "test (xla)"
   ],
   "rocm / linux-jammy-rocm-py3.10 / test (default)": [
-    "jithunnair-amd",
-    "165998",
-    "https://github.com/pytorch/pytorch/issues/165998",
+    "atalman",
+    "156098",
+    "https://github.com/pytorch/pytorch/issues/156098",
     "rocm",
     "linux-jammy-rocm-py3.10",
     "test (default)"
