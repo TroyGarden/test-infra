@@ -42,6 +42,13 @@
       "linux"
     ]
   ],
+  "test_LinearAndSoftmax_codegen (__main__.PaddingTest)": [
+    "128488",
+    "https://github.com/pytorch/pytorch/issues/128488",
+    [
+      "linux"
+    ]
+  ],
   "test_Linear_cuda_tf32 (__main__.TestNN)": [
     "155216",
     "https://github.com/pytorch/pytorch/issues/155216",
@@ -549,6 +556,14 @@
       "rocm"
     ]
   ],
+  "test_conv_transpose_unary_fusion_ops (__main__.TestMkldnnFusion)": [
+    "158115",
+    "https://github.com/pytorch/pytorch/issues/158115",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_conv_with_as_strided_cpu (__main__.FreezingCpuTests)": [
     "107893",
     "https://github.com/pytorch/pytorch/issues/107893",
@@ -605,6 +620,13 @@
     "https://github.com/pytorch/pytorch/issues/92131",
     [
       "rocm"
+    ]
+  ],
+  "test_cudagraphs_aot_eager_compat_equal (__main__.TestSAC)": [
+    "163852",
+    "https://github.com/pytorch/pytorch/issues/163852",
+    [
+      "linux"
     ]
   ],
   "test_data_ptr_access_fails_in_backward_dynamic_shapes (__main__.DynamicShapesAotAutogradFallbackTests)": [
@@ -761,6 +783,14 @@
       "linux",
       "rocm",
       "slow"
+    ]
+  ],
+  "test_dropout_deterministic_cuda (__main__.GPUTests)": [
+    "133025",
+    "https://github.com/pytorch/pytorch/issues/133025",
+    [
+      "inductor",
+      "linux"
     ]
   ],
   "test_dtensor_compile_redistribute (__main__.FxGraphRunnableTest)": [
@@ -1543,13 +1573,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_modes_handle_first (__main__.TestTorchFunctionMode)": [
-    "162624",
-    "https://github.com/pytorch/pytorch/issues/162624",
-    [
-      "dynamo"
     ]
   ],
   "test_module_and_optimizer_ids (__main__.TestTorchTidyProfiler)": [
