@@ -831,6 +831,14 @@
       "xpu"
     ]
   ],
+  "test_dynamic_expression (__main__.FxGraphRunnableTest)": [
+    "166934",
+    "https://github.com/pytorch/pytorch/issues/166934",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_dynamic_shape_m_20480_k_5_n_2_should_decompose_True_has_bias_False (__main__.TestDecomposeMemMM)": [
     "153735",
     "https://github.com/pytorch/pytorch/issues/153735",
@@ -1573,6 +1581,13 @@
     [
       "linux",
       "slow"
+    ]
+  ],
+  "test_modes_handle_first (__main__.TestTorchFunctionMode)": [
+    "162624",
+    "https://github.com/pytorch/pytorch/issues/162624",
+    [
+      "dynamo"
     ]
   ],
   "test_module_and_optimizer_ids (__main__.TestTorchTidyProfiler)": [
