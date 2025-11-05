@@ -502,16 +502,6 @@
       "rocm"
     ]
   ],
-  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
-    "139828",
-    "https://github.com/pytorch/pytorch/issues/139828",
-    [
-      "inductor",
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140503",
     "https://github.com/pytorch/pytorch/issues/140503",
@@ -770,6 +760,15 @@
   "test_dont_aggressively_write_assert (__main__.ReproTests)": [
     "156570",
     "https://github.com/pytorch/pytorch/issues/156570",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_dont_dce_rand (__main__.ReproTests)": [
+    "156580",
+    "https://github.com/pytorch/pytorch/issues/156580",
     [
       "linux",
       "rocm",
@@ -1147,6 +1146,15 @@
       "linux"
     ]
   ],
+  "test_graph_break_unsupported_fake (__main__.ReproTests)": [
+    "156629",
+    "https://github.com/pytorch/pytorch/issues/156629",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
     "104055",
     "https://github.com/pytorch/pytorch/issues/104055",
@@ -1183,13 +1191,6 @@
     "https://github.com/pytorch/pytorch/issues/105024",
     [
       "linux"
-    ]
-  ],
-  "test_honor_sm_carveout_cuda (__main__.TestFP8MatmulCUDA)": [
-    "164271",
-    "https://github.com/pytorch/pytorch/issues/164271",
-    [
-      "rocm"
     ]
   ],
   "test_honor_sm_carveout_with_triton_tma_carveout0_op_scaled_mm (__main__.TestMaxAutotune)": [
@@ -1957,15 +1958,6 @@
       "windows"
     ]
   ],
-  "test_relative_import (__main__.ReproTests)": [
-    "156679",
-    "https://github.com/pytorch/pytorch/issues/156679",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_relative_import_no_modulename (__main__.ReproTests)": [
     "156691",
     "https://github.com/pytorch/pytorch/issues/156691",
@@ -2148,13 +2140,6 @@
     "https://github.com/pytorch/pytorch/issues/91492",
     [
       "linux"
-    ]
-  ],
-  "test_return_aux_deprecation_warnings_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
-    "162464",
-    "https://github.com/pytorch/pytorch/issues/162464",
-    [
-      "rocm"
     ]
   ],
   "test_rng (__main__.TestCompilerBisector)": [
@@ -2366,14 +2351,6 @@
   "test_toy_model_basic (__main__.FxGraphRunnableTest)": [
     "163595",
     "https://github.com/pytorch/pytorch/issues/163595",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
-  "test_toy_model_dynamic_batch (__main__.FxGraphRunnableTest)": [
-    "161580",
-    "https://github.com/pytorch/pytorch/issues/161580",
     [
       "asan",
       "linux"
