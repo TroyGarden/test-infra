@@ -776,15 +776,6 @@
       "slow"
     ]
   ],
-  "test_dont_dce_rand (__main__.ReproTests)": [
-    "156580",
-    "https://github.com/pytorch/pytorch/issues/156580",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dropout_deterministic_cuda (__main__.GPUTests)": [
     "133025",
     "https://github.com/pytorch/pytorch/issues/133025",
@@ -1097,6 +1088,13 @@
       "rocm"
     ]
   ],
+  "test_fx_memory_profiler_augmentation (__main__.TestFXMemoryProfiler)": [
+    "167037",
+    "https://github.com/pytorch/pytorch/issues/167037",
+    [
+      "linux"
+    ]
+  ],
   "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
     "133994",
     "https://github.com/pytorch/pytorch/issues/133994",
@@ -1147,15 +1145,6 @@
     "https://github.com/pytorch/pytorch/issues/158443",
     [
       "linux"
-    ]
-  ],
-  "test_graph_break_unsupported_fake (__main__.ReproTests)": [
-    "156629",
-    "https://github.com/pytorch/pytorch/issues/156629",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
@@ -2343,6 +2332,13 @@
     "https://github.com/pytorch/pytorch/issues/164337",
     [
       "rocm"
+    ]
+  ],
+  "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
+    "162704",
+    "https://github.com/pytorch/pytorch/issues/162704",
+    [
+      "dynamo"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
