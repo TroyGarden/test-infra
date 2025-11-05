@@ -1617,13 +1617,6 @@
       "macos"
     ]
   ],
-  "test_multinomial (__main__.CudaGraphTreeTests)": [
-    "166682",
-    "https://github.com/pytorch/pytorch/issues/166682",
-    [
-      "linux"
-    ]
-  ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
     "150877",
     "https://github.com/pytorch/pytorch/issues/150877",
@@ -2317,13 +2310,6 @@
     "https://github.com/pytorch/pytorch/issues/164337",
     [
       "rocm"
-    ]
-  ],
-  "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
-    "162704",
-    "https://github.com/pytorch/pytorch/issues/162704",
-    [
-      "dynamo"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
