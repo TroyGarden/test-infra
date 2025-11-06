@@ -70,13 +70,5 @@
     "trunk",
     "linux-jammy-py3-clang12-executorch",
     "test (executorch)"
-  ],
-  "windows-arm64-build-test / build": [
-    "atalman",
-    "166326",
-    "https://github.com/pytorch/pytorch/issues/166326",
-    "windows-arm64-build-test",
-    "build",
-    ""
   ]
 }
