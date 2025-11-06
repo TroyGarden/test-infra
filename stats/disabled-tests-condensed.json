@@ -1087,13 +1087,6 @@
       "rocm"
     ]
   ],
-  "test_fx_memory_profiler_augmentation (__main__.TestFXMemoryProfiler)": [
-    "167037",
-    "https://github.com/pytorch/pytorch/issues/167037",
-    [
-      "linux"
-    ]
-  ],
   "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
     "133994",
     "https://github.com/pytorch/pytorch/issues/133994",
