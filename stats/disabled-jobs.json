@@ -7,14 +7,6 @@
     "",
     ""
   ],
-  "RecordDebugHandles.ScopedCallbacks (__main__.test_jit)": [
-    "pytorch-bot",
-    "164534",
-    "https://github.com/pytorch/pytorch/issues/164534",
-    "RecordDebugHandles.ScopedCallbacks (__main__.test_jit)",
-    "",
-    ""
-  ],
   "distributed/_composable/fsdp/test_fully_shard_training.py::TestFullyShard1DTrainingCompose::test_train_parity_with_activation_checkpointing": [
     "jithunnair-amd",
     "120945",
@@ -22,14 +14,6 @@
     "distributed",
     "_composable",
     "fsdp/test_fully_shard_training.py::TestFullyShard1DTrainingCompose::test_train_parity_with_activation_checkpointing"
-  ],
-  "rocm / linux-jammy-rocm-py3_10-gfx1100 / test (default)": [
-    "jithunnair-amd",
-    "165040",
-    "https://github.com/pytorch/pytorch/issues/165040",
-    "rocm",
-    "linux-jammy-rocm-py3_10-gfx1100",
-    "test (default)"
   ],
   "testAssertNotRegex (__main__.CPythonTest_Assertions)": [
     "pytorch-bot",
