@@ -784,6 +784,13 @@
       "linux"
     ]
   ],
+  "test_dtensor_op_db_full_like_cpu_float32 (__main__.TestMultiThreadedDTensorOpsCPU)": [
+    "167252",
+    "https://github.com/pytorch/pytorch/issues/167252",
+    [
+      "linux"
+    ]
+  ],
   "test_dtensor_seq_par_shard_dim_0 (__main__.MicroPipelineTPTest)": [
     "145924",
     "https://github.com/pytorch/pytorch/issues/145924",
