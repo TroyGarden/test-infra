@@ -28,6 +28,13 @@
       "rocm"
     ]
   ],
+  "test_3layer_split_reduction (__main__.MixOrderReductionTest)": [
+    "167324",
+    "https://github.com/pytorch/pytorch/issues/167324",
+    [
+      "rocm"
+    ]
+  ],
   "test_3layer_split_reduction (__main__.NoMixOrderReductionTest)": [
     "166836",
     "https://github.com/pytorch/pytorch/issues/166836",
