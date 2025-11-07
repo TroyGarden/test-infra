@@ -91,13 +91,6 @@
       "rocm"
     ]
   ],
-  "test_add_kernel (__main__.HelionTests)": [
-    "164239",
-    "https://github.com/pytorch/pytorch/issues/164239",
-    [
-      "rocm"
-    ]
-  ],
   "test_all_gather_collective (__main__.FxGraphRunnableTest)": [
     "166484",
     "https://github.com/pytorch/pytorch/issues/166484",
