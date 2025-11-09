@@ -1,4 +1,11 @@
 {
+  "test_2d_reduction_multi_kernel_xpu (__main__.TritonBlockPointerTestGPU)": [
+    "165858",
+    "https://github.com/pytorch/pytorch/issues/165858",
+    [
+      "xpu"
+    ]
+  ],
   "test_2d_reductions_mixed_indexing_reduction_op0_cpu (__main__.TritonBlockPointerTestCPU)": [
     "157895",
     "https://github.com/pytorch/pytorch/issues/157895",
@@ -793,6 +800,13 @@
       "rocm"
     ]
   ],
+  "test_dtype_aware_codegen_op_name_sqrt_load_upcast_to_fp32_False_float16_xpu (__main__.TestCaseXPU)": [
+    "166710",
+    "https://github.com/pytorch/pytorch/issues/166710",
+    [
+      "xpu"
+    ]
+  ],
   "test_dynamic_expression (__main__.FxGraphRunnableTest)": [
     "166934",
     "https://github.com/pytorch/pytorch/issues/166934",
@@ -907,6 +921,13 @@
     "https://github.com/pytorch/pytorch/issues/163717",
     [
       "linux"
+    ]
+  ],
+  "test_flop_counter_op_options1_xpu_float32 (__main__.TestSchedulerXPU)": [
+    "166707",
+    "https://github.com/pytorch/pytorch/issues/166707",
+    [
+      "xpu"
     ]
   ],
   "test_fn_fwgrad_bwgrad_cholesky_solve_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
