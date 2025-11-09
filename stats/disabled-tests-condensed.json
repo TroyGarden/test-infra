@@ -239,6 +239,13 @@
       "xpu"
     ]
   ],
+  "test_bmm_out_dtype (__main__.TestMaxAutotune)": [
+    "167418",
+    "https://github.com/pytorch/pytorch/issues/167418",
+    [
+      "xpu"
+    ]
+  ],
   "test_broadcast_add_dynamic (__main__.FxGraphRunnableTest)": [
     "159112",
     "https://github.com/pytorch/pytorch/issues/159112",
