@@ -1,11 +1,4 @@
 {
-  "test_2d_reduction_multi_kernel_xpu (__main__.TritonBlockPointerTestGPU)": [
-    "165858",
-    "https://github.com/pytorch/pytorch/issues/165858",
-    [
-      "xpu"
-    ]
-  ],
   "test_2d_reductions_mixed_indexing_reduction_op0_cpu (__main__.TritonBlockPointerTestCPU)": [
     "157895",
     "https://github.com/pytorch/pytorch/issues/157895",
@@ -24,20 +17,6 @@
   "test_2d_reductions_mixed_indexing_reduction_op0_cuda (__main__.TritonTensorDescriptorTestCUDA)": [
     "158328",
     "https://github.com/pytorch/pytorch/issues/158328",
-    [
-      "rocm"
-    ]
-  ],
-  "test_3layer_split_reduction (__main__.MixOrderReductionTest)": [
-    "167324",
-    "https://github.com/pytorch/pytorch/issues/167324",
-    [
-      "rocm"
-    ]
-  ],
-  "test_3layer_split_reduction (__main__.NoMixOrderReductionTest)": [
-    "166836",
-    "https://github.com/pytorch/pytorch/issues/166836",
     [
       "rocm"
     ]
@@ -63,23 +42,9 @@
       "rocm"
     ]
   ],
-  "test_TransformerDecoderLayer_relu_activation_cuda_tf32 (__main__.TestNN)": [
-    "163917",
-    "https://github.com/pytorch/pytorch/issues/163917",
-    [
-      "rocm"
-    ]
-  ],
   "test_TransformerEncoderLayer_gelu_activation_cuda_tf32 (__main__.TestNN)": [
     "155217",
     "https://github.com/pytorch/pytorch/issues/155217",
-    [
-      "rocm"
-    ]
-  ],
-  "test_TransformerEncoderLayer_relu_activation_cuda_tf32 (__main__.TestNN)": [
-    "163918",
-    "https://github.com/pytorch/pytorch/issues/163918",
     [
       "rocm"
     ]
@@ -271,13 +236,6 @@
   "test_binomial_sample (__main__.TestDistributions)": [
     "165720",
     "https://github.com/pytorch/pytorch/issues/165720",
-    [
-      "xpu"
-    ]
-  ],
-  "test_bmm_out_dtype (__main__.TestMaxAutotune)": [
-    "167418",
-    "https://github.com/pytorch/pytorch/issues/167418",
     [
       "xpu"
     ]
@@ -604,15 +562,6 @@
       "macos"
     ]
   ],
-  "test_create_rand_mask_from_inputs (__main__.ReproTests)": [
-    "166617",
-    "https://github.com/pytorch/pytorch/issues/166617",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_cuda_assert_should_not_stop_common_distributed_test_suite_cuda (__main__.TestTestingCUDA)": [
     "106308",
     "https://github.com/pytorch/pytorch/issues/106308",
@@ -758,13 +707,6 @@
       "rocm"
     ]
   ],
-  "test_do_bench_using_profiling (__main__.TestBench)": [
-    "166505",
-    "https://github.com/pytorch/pytorch/issues/166505",
-    [
-      "rocm"
-    ]
-  ],
   "test_do_not_guard_unbacked_inputs (__main__.TestUnbacked)": [
     "163953",
     "https://github.com/pytorch/pytorch/issues/163953",
@@ -795,15 +737,6 @@
       "slow"
     ]
   ],
-  "test_dont_dce_rand (__main__.ReproTests)": [
-    "156580",
-    "https://github.com/pytorch/pytorch/issues/156580",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dropout_deterministic_cuda (__main__.GPUTests)": [
     "133025",
     "https://github.com/pytorch/pytorch/issues/133025",
@@ -817,13 +750,6 @@
     "https://github.com/pytorch/pytorch/issues/163594",
     [
       "asan",
-      "linux"
-    ]
-  ],
-  "test_dtensor_op_db_full_like_cpu_float32 (__main__.TestMultiThreadedDTensorOpsCPU)": [
-    "167252",
-    "https://github.com/pytorch/pytorch/issues/167252",
-    [
       "linux"
     ]
   ],
@@ -994,20 +920,6 @@
       "xpu"
     ]
   ],
-  "test_flop_counter_op_options1_xpu_float32 (__main__.TestSchedulerXPU)": [
-    "166707",
-    "https://github.com/pytorch/pytorch/issues/166707",
-    [
-      "xpu"
-    ]
-  ],
-  "test_fn_fwgrad_bwgrad_cholesky_solve_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
-    "165386",
-    "https://github.com/pytorch/pytorch/issues/165386",
-    [
-      "rocm"
-    ]
-  ],
   "test_fn_grad_cholesky_solve_cuda_complex128 (__main__.TestBwdGradientsCUDA)": [
     "164192",
     "https://github.com/pytorch/pytorch/issues/164192",
@@ -1111,27 +1023,6 @@
       "linux"
     ]
   ],
-  "test_fuzzer_issue_163674 (__main__.TestFuzzerCompileIssues)": [
-    "167215",
-    "https://github.com/pytorch/pytorch/issues/167215",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fuzzer_issue_164428 (__main__.TestFuzzerCompileIssues)": [
-    "165093",
-    "https://github.com/pytorch/pytorch/issues/165093",
-    [
-      "rocm"
-    ]
-  ],
-  "test_fx_memory_profiler_augmentation (__main__.TestFXMemoryProfiler)": [
-    "167037",
-    "https://github.com/pytorch/pytorch/issues/167037",
-    [
-      "linux"
-    ]
-  ],
   "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
     "133994",
     "https://github.com/pytorch/pytorch/issues/133994",
@@ -1145,15 +1036,6 @@
       "slow",
       "win",
       "windows"
-    ]
-  ],
-  "test_get_parameter_dtype (__main__.ReproTests)": [
-    "156598",
-    "https://github.com/pytorch/pytorch/issues/156598",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_getitem_call (__main__.TestTorchFunctionMode)": [
@@ -1184,27 +1066,11 @@
       "linux"
     ]
   ],
-  "test_graph_break_unsupported_fake (__main__.ReproTests)": [
-    "156629",
-    "https://github.com/pytorch/pytorch/issues/156629",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_graph_concurrent_replay (__main__.TestCuda)": [
     "104055",
     "https://github.com/pytorch/pytorch/issues/104055",
     [
       "rocm"
-    ]
-  ],
-  "test_graph_partition_cudagraphs_aot_eager_compat_equal (__main__.TestSAC)": [
-    "167274",
-    "https://github.com/pytorch/pytorch/issues/167274",
-    [
-      "linux"
     ]
   ],
   "test_guard_serialization_fsdp_module (__main__.TestGuardSerializationFSDP)": [
@@ -1236,13 +1102,6 @@
     "https://github.com/pytorch/pytorch/issues/105024",
     [
       "linux"
-    ]
-  ],
-  "test_honor_sm_carveout_cuda (__main__.TestFP8MatmulCUDA)": [
-    "164271",
-    "https://github.com/pytorch/pytorch/issues/164271",
-    [
-      "rocm"
     ]
   ],
   "test_honor_sm_carveout_with_triton_tma_carveout0_op_scaled_mm (__main__.TestMaxAutotune)": [
@@ -1416,13 +1275,6 @@
       "rocm"
     ]
   ],
-  "test_mark_unbacked_with_hint_override_cuda (__main__.GPUTests)": [
-    "165388",
-    "https://github.com/pytorch/pytorch/issues/165388",
-    [
-      "inductor"
-    ]
-  ],
   "test_matmul_triton_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "115002",
     "https://github.com/pytorch/pytorch/issues/115002",
@@ -1485,15 +1337,6 @@
     "https://github.com/pytorch/pytorch/issues/95172",
     [
       "rocm"
-    ]
-  ],
-  "test_memory_snapshot (__main__.TestCudaMallocAsync)": [
-    "126953",
-    "https://github.com/pytorch/pytorch/issues/126953",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_memory_snapshot_with_cpp (__main__.TestCudaMallocAsync)": [
@@ -1579,13 +1422,6 @@
     "https://github.com/pytorch/pytorch/issues/147853",
     [
       "linux",
-      "rocm"
-    ]
-  ],
-  "test_mixed_mm_gating (__main__.TestPatternMatcher)": [
-    "147965",
-    "https://github.com/pytorch/pytorch/issues/147965",
-    [
       "rocm"
     ]
   ],
@@ -1725,20 +1561,6 @@
       "linux"
     ]
   ],
-  "test_noncontiguous_samples_cholesky_solve_cuda_complex64 (__main__.TestCommonCUDA)": [
-    "165294",
-    "https://github.com/pytorch/pytorch/issues/165294",
-    [
-      "rocm"
-    ]
-  ],
-  "test_noncontiguous_samples_cholesky_solve_cuda_float32 (__main__.TestCommonCUDA)": [
-    "165295",
-    "https://github.com/pytorch/pytorch/issues/165295",
-    [
-      "rocm"
-    ]
-  ],
   "test_nondeterministic_alert_histc_cuda (__main__.TestTorchDeviceTypeCUDA)": [
     "109310",
     "https://github.com/pytorch/pytorch/issues/109310",
@@ -1813,15 +1635,6 @@
       "rocm"
     ]
   ],
-  "test_pre_grad (__main__.TestCompilerBisector)": [
-    "164462",
-    "https://github.com/pytorch/pytorch/issues/164462",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
     "91493",
     "https://github.com/pytorch/pytorch/issues/91493",
@@ -1876,27 +1689,6 @@
     "https://github.com/pytorch/pytorch/issues/125365",
     [
       "linux"
-    ]
-  ],
-  "test_progressive (__main__.GPUTests)": [
-    "157724",
-    "https://github.com/pytorch/pytorch/issues/157724",
-    [
-      "rocm"
-    ]
-  ],
-  "test_progressive (__main__.TestSubprocess)": [
-    "157788",
-    "https://github.com/pytorch/pytorch/issues/157788",
-    [
-      "rocm"
-    ]
-  ],
-  "test_pw_kernel_benchmark (__main__.TestKernelBenchmark)": [
-    "165875",
-    "https://github.com/pytorch/pytorch/issues/165875",
-    [
-      "rocm"
     ]
   ],
   "test_pynode_destruction_deadlock (__main__.TestAutogradWithCompiledAutograd)": [
@@ -1988,13 +1780,6 @@
       "rocm"
     ]
   ],
-  "test_reentrant_mode_idiom (__main__.TestTorchFunctionMode)": [
-    "162677",
-    "https://github.com/pytorch/pytorch/issues/162677",
-    [
-      "dynamo"
-    ]
-  ],
   "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
     "86735",
     "https://github.com/pytorch/pytorch/issues/86735",
@@ -2002,15 +1787,6 @@
       "rocm",
       "win",
       "windows"
-    ]
-  ],
-  "test_relative_import (__main__.ReproTests)": [
-    "156679",
-    "https://github.com/pytorch/pytorch/issues/156679",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_relative_import_no_modulename (__main__.ReproTests)": [
@@ -2095,15 +1871,6 @@
       "rocm"
     ]
   ],
-  "test_remove_noop_slice_cuda (__main__.GPUTests)": [
-    "151383",
-    "https://github.com/pytorch/pytorch/issues/151383",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_remove_noop_slice_scatter_cpu (__main__.CpuTests)": [
     "151382",
     "https://github.com/pytorch/pytorch/issues/151382",
@@ -2183,25 +1950,11 @@
       "slow"
     ]
   ],
-  "test_repeated_masked_load (__main__.CudaReproTests)": [
-    "163701",
-    "https://github.com/pytorch/pytorch/issues/163701",
-    [
-      "rocm"
-    ]
-  ],
   "test_requires_grad_loop (test_jit.TestScript)": [
     "91492",
     "https://github.com/pytorch/pytorch/issues/91492",
     [
       "linux"
-    ]
-  ],
-  "test_return_aux_deprecation_warnings_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
-    "162464",
-    "https://github.com/pytorch/pytorch/issues/162464",
-    [
-      "rocm"
     ]
   ],
   "test_rng (__main__.TestCompilerBisector)": [
@@ -2300,13 +2053,6 @@
       "slow"
     ]
   ],
-  "test_subgroup (__main__.SymmetricMemoryTest)": [
-    "161612",
-    "https://github.com/pytorch/pytorch/issues/161612",
-    [
-      "rocm"
-    ]
-  ],
   "test_successful (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91489",
     "https://github.com/pytorch/pytorch/issues/91489",
@@ -2379,13 +2125,6 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
-    ]
-  ],
-  "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
-    "162704",
-    "https://github.com/pytorch/pytorch/issues/162704",
-    [
-      "dynamo"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
@@ -2480,13 +2219,6 @@
       "rocm"
     ]
   ],
-  "test_truediv_base_not_bitwise_equivalent (__main__.CudaReproTests)": [
-    "165671",
-    "https://github.com/pytorch/pytorch/issues/165671",
-    [
-      "rocm"
-    ]
-  ],
   "test_trust_repo_check_yes (__main__.TestHub)": [
     "155617",
     "https://github.com/pytorch/pytorch/issues/155617",
@@ -2523,14 +2255,6 @@
       "linux"
     ]
   ],
-  "test_var_mean_tile_reduction_True_cuda (__main__.GPUTests)": [
-    "165879",
-    "https://github.com/pytorch/pytorch/issues/165879",
-    [
-      "inductor",
-      "rocm"
-    ]
-  ],
   "test_var_mean_tile_reduction_True_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "149016",
     "https://github.com/pytorch/pytorch/issues/149016",
@@ -2550,13 +2274,6 @@
   "test_vmap_exhaustive_cholesky_solve_cuda_float32 (__main__.TestVmapOperatorsOpInfoCUDA)": [
     "164556",
     "https://github.com/pytorch/pytorch/issues/164556",
-    [
-      "rocm"
-    ]
-  ],
-  "test_without_enable_profiler_in_child_thread_cuda (__main__.CppThreadTestCUDA)": [
-    "166422",
-    "https://github.com/pytorch/pytorch/issues/166422",
     [
       "rocm"
     ]
