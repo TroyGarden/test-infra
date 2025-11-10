@@ -28,6 +28,20 @@
       "rocm"
     ]
   ],
+  "test_3layer_split_reduction (__main__.MixOrderReductionTest)": [
+    "167324",
+    "https://github.com/pytorch/pytorch/issues/167324",
+    [
+      "rocm"
+    ]
+  ],
+  "test_3layer_split_reduction (__main__.NoMixOrderReductionTest)": [
+    "166836",
+    "https://github.com/pytorch/pytorch/issues/166836",
+    [
+      "rocm"
+    ]
+  ],
   "test_DistributedDataParallel (__main__.TestDistBackendWithSpawn)": [
     "77317",
     "https://github.com/pytorch/pytorch/issues/77317",
@@ -74,6 +88,15 @@
     "155235",
     "https://github.com/pytorch/pytorch/issues/155235",
     [
+      "rocm"
+    ]
+  ],
+  "test_all_gather_collective (__main__.FxGraphRunnableTest)": [
+    "166484",
+    "https://github.com/pytorch/pytorch/issues/166484",
+    [
+      "asan",
+      "linux",
       "rocm"
     ]
   ],
@@ -124,6 +147,30 @@
     "https://github.com/pytorch/pytorch/issues/91486",
     [
       "linux"
+    ]
+  ],
+  "test_annotate_on_assert_retraceability_nonstrict (__main__.RetraceExportNonStrictTestExport)": [
+    "167432",
+    "https://github.com/pytorch/pytorch/issues/167432",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_annotate_on_assert_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
+    "167434",
+    "https://github.com/pytorch/pytorch/issues/167434",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
     ]
   ],
   "test_annotate_on_assert_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
@@ -219,6 +266,20 @@
     [
       "linux",
       "rocm"
+    ]
+  ],
+  "test_binomial_sample (__main__.TestDistributions)": [
+    "165720",
+    "https://github.com/pytorch/pytorch/issues/165720",
+    [
+      "xpu"
+    ]
+  ],
+  "test_bmm_out_dtype (__main__.TestMaxAutotune)": [
+    "167418",
+    "https://github.com/pytorch/pytorch/issues/167418",
+    [
+      "xpu"
     ]
   ],
   "test_broadcast_add_dynamic (__main__.FxGraphRunnableTest)": [
@@ -796,6 +857,14 @@
       "xpu"
     ]
   ],
+  "test_dynamic_expression (__main__.FxGraphRunnableTest)": [
+    "166934",
+    "https://github.com/pytorch/pytorch/issues/166934",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
   "test_dynamic_shape_m_20480_k_5_n_2_should_decompose_True_has_bias_False (__main__.TestDecomposeMemMM)": [
     "153735",
     "https://github.com/pytorch/pytorch/issues/153735",
@@ -844,6 +913,15 @@
     "https://github.com/pytorch/pytorch/issues/163765",
     [
       "rocm"
+    ]
+  ],
+  "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionGpuTest)": [
+    "166601",
+    "https://github.com/pytorch/pytorch/issues/166601",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_execution_trace_with_kineto (__main__.TestExecutionTrace)": [
@@ -1033,11 +1111,25 @@
       "linux"
     ]
   ],
+  "test_fuzzer_issue_163674 (__main__.TestFuzzerCompileIssues)": [
+    "167215",
+    "https://github.com/pytorch/pytorch/issues/167215",
+    [
+      "rocm"
+    ]
+  ],
   "test_fuzzer_issue_164428 (__main__.TestFuzzerCompileIssues)": [
     "165093",
     "https://github.com/pytorch/pytorch/issues/165093",
     [
       "rocm"
+    ]
+  ],
+  "test_fx_memory_profiler_augmentation (__main__.TestFXMemoryProfiler)": [
+    "167037",
+    "https://github.com/pytorch/pytorch/issues/167037",
+    [
+      "linux"
     ]
   ],
   "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
@@ -1570,6 +1662,13 @@
       "macos"
     ]
   ],
+  "test_multinomial (__main__.CudaGraphTreeTests)": [
+    "166682",
+    "https://github.com/pytorch/pytorch/issues/166682",
+    [
+      "linux"
+    ]
+  ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
     "150877",
     "https://github.com/pytorch/pytorch/issues/150877",
@@ -1712,6 +1811,15 @@
     "https://github.com/pytorch/pytorch/issues/166486",
     [
       "rocm"
+    ]
+  ],
+  "test_pre_grad (__main__.TestCompilerBisector)": [
+    "164462",
+    "https://github.com/pytorch/pytorch/issues/164462",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
@@ -2271,6 +2379,13 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
+    ]
+  ],
+  "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
+    "162704",
+    "https://github.com/pytorch/pytorch/issues/162704",
+    [
+      "dynamo"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
