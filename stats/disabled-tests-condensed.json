@@ -765,13 +765,6 @@
       "rocm"
     ]
   ],
-  "test_do_bench_using_profiling (__main__.TestBench)": [
-    "166505",
-    "https://github.com/pytorch/pytorch/issues/166505",
-    [
-      "rocm"
-    ]
-  ],
   "test_do_not_guard_unbacked_inputs (__main__.TestUnbacked)": [
     "163953",
     "https://github.com/pytorch/pytorch/issues/163953",
