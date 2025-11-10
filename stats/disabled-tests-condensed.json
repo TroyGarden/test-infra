@@ -1074,6 +1074,15 @@
       "slow"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "150161",
+    "https://github.com/pytorch/pytorch/issues/150161",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_forward_mode_AD_cholesky_solve_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
     "164194",
     "https://github.com/pytorch/pytorch/issues/164194",
@@ -2338,6 +2347,13 @@
     "https://github.com/pytorch/pytorch/issues/91497",
     [
       "linux"
+    ]
+  ],
+  "test_tensor_subclasses (__main__.TestScript)": [
+    "119949",
+    "https://github.com/pytorch/pytorch/issues/119949",
+    [
+      "dynamo"
     ]
   ],
   "test_tensorboard_trace_handler (__main__.TestProfiler)": [
