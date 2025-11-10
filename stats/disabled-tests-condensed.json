@@ -1653,13 +1653,6 @@
       "macos"
     ]
   ],
-  "test_multinomial (__main__.CudaGraphTreeTests)": [
-    "166682",
-    "https://github.com/pytorch/pytorch/issues/166682",
-    [
-      "linux"
-    ]
-  ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
     "150877",
     "https://github.com/pytorch/pytorch/issues/150877",
