@@ -838,6 +838,13 @@
       "rocm"
     ]
   ],
+  "test_dtype_aware_codegen_op_name_sqrt_load_upcast_to_fp32_False_bfloat16_xpu (__main__.TestCaseXPU)": [
+    "166709",
+    "https://github.com/pytorch/pytorch/issues/166709",
+    [
+      "xpu"
+    ]
+  ],
   "test_dtype_aware_codegen_op_name_sqrt_load_upcast_to_fp32_False_float16_xpu (__main__.TestCaseXPU)": [
     "166710",
     "https://github.com/pytorch/pytorch/issues/166710",
@@ -961,9 +968,23 @@
       "linux"
     ]
   ],
+  "test_flop_counter_op_options0_xpu_float16 (__main__.TestSchedulerXPU)": [
+    "166704",
+    "https://github.com/pytorch/pytorch/issues/166704",
+    [
+      "xpu"
+    ]
+  ],
   "test_flop_counter_op_options0_xpu_float32 (__main__.TestSchedulerXPU)": [
     "166705",
     "https://github.com/pytorch/pytorch/issues/166705",
+    [
+      "xpu"
+    ]
+  ],
+  "test_flop_counter_op_options1_xpu_float16 (__main__.TestSchedulerXPU)": [
+    "166706",
+    "https://github.com/pytorch/pytorch/issues/166706",
     [
       "xpu"
     ]
