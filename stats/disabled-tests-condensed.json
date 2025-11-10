@@ -153,7 +153,11 @@
     "167432",
     "https://github.com/pytorch/pytorch/issues/167432",
     [
+      "asan",
       "linux",
+      "mac",
+      "macos",
+      "rocm",
       "slow"
     ]
   ],
@@ -161,7 +165,11 @@
     "167434",
     "https://github.com/pytorch/pytorch/issues/167434",
     [
+      "asan",
       "linux",
+      "mac",
+      "macos",
+      "rocm",
       "slow"
     ]
   ],
@@ -169,7 +177,11 @@
     "167433",
     "https://github.com/pytorch/pytorch/issues/167433",
     [
+      "asan",
       "linux",
+      "mac",
+      "macos",
+      "rocm",
       "slow"
     ]
   ],
