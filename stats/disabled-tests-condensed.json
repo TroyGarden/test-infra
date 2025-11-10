@@ -149,6 +149,30 @@
       "linux"
     ]
   ],
+  "test_annotate_on_assert_retraceability_nonstrict (__main__.RetraceExportNonStrictTestExport)": [
+    "167432",
+    "https://github.com/pytorch/pytorch/issues/167432",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_annotate_on_assert_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
+    "167434",
+    "https://github.com/pytorch/pytorch/issues/167434",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
+  "test_annotate_on_assert_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
+    "167433",
+    "https://github.com/pytorch/pytorch/issues/167433",
+    [
+      "linux",
+      "slow"
+    ]
+  ],
   "test_aot_autograd_exhaustive_as_strided_scatter_cpu_float32 (__main__.TestEagerFusionOpInfoCPU)": [
     "85879",
     "https://github.com/pytorch/pytorch/issues/85879",
@@ -162,6 +186,13 @@
     "https://github.com/pytorch/pytorch/issues/146851",
     [
       "linux"
+    ]
+  ],
+  "test_aoti_user_defined_triton_kernel_profiling_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
+    "165130",
+    "https://github.com/pytorch/pytorch/issues/165130",
+    [
+      "xpu"
     ]
   ],
   "test_attn_cuda (__main__.TestMin)": [
@@ -928,6 +959,13 @@
     "https://github.com/pytorch/pytorch/issues/163717",
     [
       "linux"
+    ]
+  ],
+  "test_flop_counter_op_options0_xpu_float32 (__main__.TestSchedulerXPU)": [
+    "166705",
+    "https://github.com/pytorch/pytorch/issues/166705",
+    [
+      "xpu"
     ]
   ],
   "test_flop_counter_op_options1_xpu_float32 (__main__.TestSchedulerXPU)": [
