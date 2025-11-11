@@ -2067,34 +2067,6 @@
       "slow"
     ]
   ],
-  "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
-    "145182",
-    "https://github.com/pytorch/pytorch/issues/145182",
-    [
-      "rocm"
-    ]
-  ],
-  "test_remote_cache_load_function_device_cuda_bfloat16_dynamic_False_bundle_triton_True (__main__.TestFxGraphCache)": [
-    "145190",
-    "https://github.com/pytorch/pytorch/issues/145190",
-    [
-      "rocm"
-    ]
-  ],
-  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_False (__main__.TestFxGraphCache)": [
-    "145212",
-    "https://github.com/pytorch/pytorch/issues/145212",
-    [
-      "rocm"
-    ]
-  ],
-  "test_remote_cache_load_function_device_cuda_float32_dynamic_False_bundle_triton_True (__main__.TestFxGraphCache)": [
-    "145191",
-    "https://github.com/pytorch/pytorch/issues/145191",
-    [
-      "rocm"
-    ]
-  ],
   "test_remote_group_merge (__main__.ProcessGroupGlooTest)": [
     "162250",
     "https://github.com/pytorch/pytorch/issues/162250",
