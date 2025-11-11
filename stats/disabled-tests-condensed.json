@@ -1664,13 +1664,6 @@
       "rocm"
     ]
   ],
-  "test_mm_plus_mm2_gpu_wrapper (__main__.TestGpuWrapper)": [
-    "157048",
-    "https://github.com/pytorch/pytorch/issues/157048",
-    [
-      "rocm"
-    ]
-  ],
   "test_mm_plus_mm3_gpu_wrapper (__main__.TestGpuWrapper)": [
     "157072",
     "https://github.com/pytorch/pytorch/issues/157072",
