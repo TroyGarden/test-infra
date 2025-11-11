@@ -39,6 +39,14 @@
     "",
     ""
   ],
+  "test_layernorm_fp8_quant_benchmark_float8_e4m3fn_shape_4,2048,4096_keepdim_False (__main__.TestFP8Types)": [
+    "pytorch-bot",
+    "167497",
+    "https://github.com/pytorch/pytorch/issues/167497",
+    "test_layernorm_fp8_quant_benchmark_float8_e4m3fn_shape_4,2048,4096_keepdim_False (__main__.TestFP8Types)",
+    "",
+    ""
+  ],
   "test_layernorm_fp8_quant_benchmark_float8_e4m3fn_shape_4,2048,4096_keepdim_True (__main__.TestFP8Types)": [
     "pytorch-bot",
     "166487",
