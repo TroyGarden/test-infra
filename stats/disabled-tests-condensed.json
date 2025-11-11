@@ -107,6 +107,15 @@
       "mac"
     ]
   ],
+  "test_all_reduce_collective (__main__.FxGraphRunnableTest)": [
+    "164425",
+    "https://github.com/pytorch/pytorch/issues/164425",
+    [
+      "asan",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_allgather_stress_cuda (__main__.ProcessGroupGlooFRTest)": [
     "155711",
     "https://github.com/pytorch/pytorch/issues/155711",
@@ -253,6 +262,15 @@
       "mac"
     ]
   ],
+  "test_basic_tensor_add (__main__.FxGraphRunnableTest)": [
+    "162554",
+    "https://github.com/pytorch/pytorch/issues/162554",
+    [
+      "asan",
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_benchmark_choice_in_subproc (__main__.TestMaxAutotuneSubproc)": [
     "158335",
     "https://github.com/pytorch/pytorch/issues/158335",
@@ -292,6 +310,15 @@
   "test_broadcast_add_dynamic (__main__.FxGraphRunnableTest)": [
     "159112",
     "https://github.com/pytorch/pytorch/issues/159112",
+    [
+      "asan",
+      "linux",
+      "rocm"
+    ]
+  ],
+  "test_broadcast_collective (__main__.FxGraphRunnableTest)": [
+    "162483",
+    "https://github.com/pytorch/pytorch/issues/162483",
     [
       "asan",
       "linux",
@@ -1281,6 +1308,18 @@
       "slow"
     ]
   ],
+  "test_ind_worker_queue (__main__.TestIndividualWorkerQueue)": [
+    "68643",
+    "https://github.com/pytorch/pytorch/issues/68643",
+    [
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "win",
+      "windows"
+    ]
+  ],
   "test_index_add_correctness (__main__.TestTorch)": [
     "91184",
     "https://github.com/pytorch/pytorch/issues/91184",
@@ -1561,6 +1600,13 @@
   "test_merge_liveness (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91481",
     "https://github.com/pytorch/pytorch/issues/91481",
+    [
+      "linux"
+    ]
+  ],
+  "test_meta_simple (__main__.TestMultiprocessing)": [
+    "167522",
+    "https://github.com/pytorch/pytorch/issues/167522",
     [
       "linux"
     ]
@@ -2144,6 +2190,18 @@
       "slow"
     ]
   ],
+  "test_remove_noop_view_default_cpu (__main__.CpuTests)": [
+    "151512",
+    "https://github.com/pytorch/pytorch/issues/151512",
+    [
+      "asan",
+      "linux",
+      "mac",
+      "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_remove_noop_view_default_cuda (__main__.GPUTests)": [
     "151511",
     "https://github.com/pytorch/pytorch/issues/151511",
@@ -2161,15 +2219,6 @@
       "linux",
       "mac",
       "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
-    "151541",
-    "https://github.com/pytorch/pytorch/issues/151541",
-    [
-      "linux",
       "rocm",
       "slow"
     ]
@@ -2424,6 +2473,15 @@
     [
       "asan",
       "linux"
+    ]
+  ],
+  "test_toy_model_batch_processing (__main__.FxGraphRunnableTest)": [
+    "162231",
+    "https://github.com/pytorch/pytorch/issues/162231",
+    [
+      "asan",
+      "linux",
+      "rocm"
     ]
   ],
   "test_trace_buffer_slice (__main__.TestFX)": [
