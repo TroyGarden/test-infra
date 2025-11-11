@@ -1435,20 +1435,6 @@
       "linux"
     ]
   ],
-  "test_linear_relu_dynamic_shapes_gpu_wrapper (__main__.DynamicShapesGpuWrapperGpuTests)": [
-    "157005",
-    "https://github.com/pytorch/pytorch/issues/157005",
-    [
-      "rocm"
-    ]
-  ],
-  "test_linear_relu_gpu_wrapper (__main__.TestGpuWrapper)": [
-    "157006",
-    "https://github.com/pytorch/pytorch/issues/157006",
-    [
-      "rocm"
-    ]
-  ],
   "test_lobpcg (__main__.TestAutograd)": [
     "80338",
     "https://github.com/pytorch/pytorch/issues/80338",
@@ -1606,13 +1592,6 @@
       "linux"
     ]
   ],
-  "test_meta_simple (__main__.TestMultiprocessing)": [
-    "167522",
-    "https://github.com/pytorch/pytorch/issues/167522",
-    [
-      "linux"
-    ]
-  ],
   "test_method_overloading (__main__.TestScript)": [
     "131104",
     "https://github.com/pytorch/pytorch/issues/131104",
@@ -1660,13 +1639,6 @@
   "test_mlp_contiguous_relu_compile_cutlass (__main__.SparseSemiStructuredTensorCompileTest)": [
     "122352",
     "https://github.com/pytorch/pytorch/issues/122352",
-    [
-      "rocm"
-    ]
-  ],
-  "test_mm_plus_mm3_gpu_wrapper (__main__.TestGpuWrapper)": [
-    "157072",
-    "https://github.com/pytorch/pytorch/issues/157072",
     [
       "rocm"
     ]
@@ -1721,13 +1693,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_multinomial (__main__.CudaGraphTreeTests)": [
-    "166682",
-    "https://github.com/pytorch/pytorch/issues/166682",
-    [
-      "linux"
     ]
   ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
@@ -2454,13 +2419,6 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
-    ]
-  ],
-  "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
-    "162704",
-    "https://github.com/pytorch/pytorch/issues/162704",
-    [
-      "dynamo"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
