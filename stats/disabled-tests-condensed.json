@@ -1011,13 +1011,6 @@
       "rocm"
     ]
   ],
-  "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape0_cuda (__main__.TestFlexAttentionCUDA)": [
-    "163717",
-    "https://github.com/pytorch/pytorch/issues/163717",
-    [
-      "linux"
-    ]
-  ],
   "test_flop_counter_op_options0_xpu_float16 (__main__.TestSchedulerXPU)": [
     "166704",
     "https://github.com/pytorch/pytorch/issues/166704",
@@ -1131,6 +1124,15 @@
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float16 (__main__.TestForeachCUDA)": [
     "150173",
     "https://github.com/pytorch/pytorch/issues/150173",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_float32 (__main__.TestForeachCUDA)": [
+    "150208",
+    "https://github.com/pytorch/pytorch/issues/150208",
     [
       "linux",
       "rocm",
@@ -1879,6 +1881,20 @@
       "rocm"
     ]
   ],
+  "test_pointwise_op_with_tensor_of_scalarlist_overload__foreach_addcmul_is_fastpath_True_cuda_complex64 (__main__.TestForeachCUDA)": [
+    "164822",
+    "https://github.com/pytorch/pytorch/issues/164822",
+    [
+      "rocm"
+    ]
+  ],
+  "test_pointwise_op_with_tensor_of_scalarlist_overload__foreach_addcmul_is_fastpath_True_cuda_float16 (__main__.TestForeachCUDA)": [
+    "167538",
+    "https://github.com/pytorch/pytorch/issues/167538",
+    [
+      "rocm"
+    ]
+  ],
   "test_pre_grad (__main__.TestCompilerBisector)": [
     "164462",
     "https://github.com/pytorch/pytorch/issues/164462",
@@ -2219,6 +2235,15 @@
       "linux",
       "mac",
       "macos",
+      "rocm",
+      "slow"
+    ]
+  ],
+  "test_remove_noop_view_dtype_cuda (__main__.GPUTests)": [
+    "151541",
+    "https://github.com/pytorch/pytorch/issues/151541",
+    [
+      "linux",
       "rocm",
       "slow"
     ]
