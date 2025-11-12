@@ -62,5 +62,13 @@
     "trunk",
     "linux-jammy-py3-clang12-executorch",
     "test (executorch)"
+  ],
+  "trunk-rocm-mi300 / linux-jammy-rocm-py3.10 / test": [
+    "jithunnair-amd",
+    "167616",
+    "https://github.com/pytorch/pytorch/issues/167616",
+    "trunk-rocm-mi300",
+    "linux-jammy-rocm-py3.10",
+    "test"
   ]
 }
