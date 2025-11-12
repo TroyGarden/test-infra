@@ -31,6 +31,14 @@
     "cuda12.8-py3.10-gcc9-sm80",
     "test (inductor_torchbench_smoketest_perf)"
   ],
+  "inductor-periodic / inductor-smoke-test / test (inductor_torchbench_smoketest_perf)": [
+    "zou3519",
+    "167613",
+    "https://github.com/pytorch/pytorch/issues/167613",
+    "inductor-periodic",
+    "inductor-smoke-test",
+    "test (inductor_torchbench_smoketest_perf)"
+  ],
   "periodic / linux-jammy-cuda12.4-py3.10-gcc11 / test (legacy_nvidia_driver)": [
     "atalman",
     "163657",
