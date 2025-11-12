@@ -1862,13 +1862,6 @@
       "linux"
     ]
   ],
-  "test_progressive (__main__.GPUTests)": [
-    "157724",
-    "https://github.com/pytorch/pytorch/issues/157724",
-    [
-      "rocm"
-    ]
-  ],
   "test_pw_kernel_benchmark (__main__.TestKernelBenchmark)": [
     "165875",
     "https://github.com/pytorch/pytorch/issues/165875",
