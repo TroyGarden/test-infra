@@ -558,6 +558,16 @@
       "rocm"
     ]
   ],
+  "test_comprehensive_pca_lowrank_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
+    "139828",
+    "https://github.com/pytorch/pytorch/issues/139828",
+    [
+      "inductor",
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_comprehensive_rsub_cuda_float32 (__main__.TestInductorOpInfoCUDA)": [
     "140503",
     "https://github.com/pytorch/pytorch/issues/140503",
@@ -577,6 +587,14 @@
     "https://github.com/pytorch/pytorch/issues/147047",
     [
       "inductor"
+    ]
+  ],
+  "test_compute_bucket_assignment_by_size_sparse_error_with_logger (__main__.TestDistBackendWithSpawn)": [
+    "85012",
+    "https://github.com/pytorch/pytorch/issues/85012",
+    [
+      "linux",
+      "rocm"
     ]
   ],
   "test_conv2d_unary_cpu_cpp_wrapper (__main__.TestCppWrapper)": [
@@ -605,6 +623,14 @@
   "test_conv_transpose_unary_fusion_ops (__main__.TestMkldnnFusion)": [
     "158115",
     "https://github.com/pytorch/pytorch/issues/158115",
+    [
+      "asan",
+      "linux"
+    ]
+  ],
+  "test_conv_unary_fusion_ops (__main__.TestMkldnnFusion)": [
+    "161579",
+    "https://github.com/pytorch/pytorch/issues/161579",
     [
       "asan",
       "linux"
@@ -1079,6 +1105,15 @@
       "slow"
     ]
   ],
+  "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_bool (__main__.TestForeachCUDA)": [
+    "150120",
+    "https://github.com/pytorch/pytorch/issues/150120",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_foreach_copy_with_multi_dtypes__foreach_copy_cuda_complex64 (__main__.TestForeachCUDA)": [
     "150161",
     "https://github.com/pytorch/pytorch/issues/150161",
@@ -1230,6 +1265,13 @@
       "asan",
       "linux",
       "rocm"
+    ]
+  ],
+  "test_hessian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
+    "153644",
+    "https://github.com/pytorch/pytorch/issues/153644",
+    [
+      "dynamo"
     ]
   ],
   "test_hoist_conv_packed_params (__main__.TestOptimizer)": [
@@ -1901,6 +1943,14 @@
       "slow"
     ]
   ],
+  "test_quantized_conv_no_asan_failures (__main__.TestOptimizer)": [
+    "157254",
+    "https://github.com/pytorch/pytorch/issues/157254",
+    [
+      "mac",
+      "macos"
+    ]
+  ],
   "test_qwen2_7b_sdpa_input_alignment_requires_recompile (__main__.CudaReproTests)": [
     "163689",
     "https://github.com/pytorch/pytorch/issues/163689",
@@ -2179,6 +2229,13 @@
       "linux",
       "mac",
       "macos"
+    ]
+  ],
+  "test_side_stream_backward_overlap_cuda (__main__.TestAutogradStreamSynchronizationCUDA)": [
+    "167693",
+    "https://github.com/pytorch/pytorch/issues/167693",
+    [
+      "rocm"
     ]
   ],
   "test_skip_grad_in_check (__main__.TestTEFuserDynamic)": [
