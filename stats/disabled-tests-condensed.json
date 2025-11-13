@@ -63,6 +63,13 @@
       "rocm"
     ]
   ],
+  "test_TransformerEncoderLayer_gelu_activation_cuda_tf32 (__main__.TestNN)": [
+    "155217",
+    "https://github.com/pytorch/pytorch/issues/155217",
+    [
+      "rocm"
+    ]
+  ],
   "test_Transformer_multilayer_coder_cuda_tf32 (__main__.TestNN)": [
     "155235",
     "https://github.com/pytorch/pytorch/issues/155235",
@@ -599,15 +606,6 @@
     "https://github.com/pytorch/pytorch/issues/106557",
     [
       "macos"
-    ]
-  ],
-  "test_create_rand_mask_from_inputs (__main__.ReproTests)": [
-    "166617",
-    "https://github.com/pytorch/pytorch/issues/166617",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_cuda_assert_should_not_stop_common_distributed_test_suite_cuda (__main__.TestTestingCUDA)": [
@@ -1293,6 +1291,13 @@
       "rocm"
     ]
   ],
+  "test_jacobian_vectorize_raises_no_warnings_logging_tensor (__main__.TestAutogradFunctional)": [
+    "153707",
+    "https://github.com/pytorch/pytorch/issues/153707",
+    [
+      "dynamo"
+    ]
+  ],
   "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
     "114654",
     "https://github.com/pytorch/pytorch/issues/114654",
@@ -1421,14 +1426,6 @@
     [
       "linux",
       "slow"
-    ]
-  ],
-  "test_mempool_limited_memory_with_allocator (__main__.TestMemPool)": [
-    "157256",
-    "https://github.com/pytorch/pytorch/issues/157256",
-    [
-      "linux",
-      "rocm"
     ]
   ],
   "test_mempool_with_allocator (__main__.TestMemPool)": [
@@ -2077,15 +2074,6 @@
       "linux"
     ]
   ],
-  "test_slice_scatter_reinplace_cuda (__main__.GPUTests)": [
-    "145189",
-    "https://github.com/pytorch/pytorch/issues/145189",
-    [
-      "inductor",
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_small_stability (__main__.TestBase)": [
     "160290",
     "https://github.com/pytorch/pytorch/issues/160290",
@@ -2324,14 +2312,6 @@
     "https://github.com/pytorch/pytorch/issues/159348",
     [
       "rocm"
-    ]
-  ],
-  "test_upper_bound_i64_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "159860",
-    "https://github.com/pytorch/pytorch/issues/159860",
-    [
-      "inductor",
-      "linux"
     ]
   ],
   "test_var_mean_tile_reduction_True_cuda (__main__.GPUTests)": [
