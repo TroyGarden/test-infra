@@ -1432,13 +1432,6 @@
       "linux"
     ]
   ],
-  "test_meta_simple (__main__.TestMultiprocessing)": [
-    "167522",
-    "https://github.com/pytorch/pytorch/issues/167522",
-    [
-      "linux"
-    ]
-  ],
   "test_method_overloading (__main__.TestScript)": [
     "131104",
     "https://github.com/pytorch/pytorch/issues/131104",
