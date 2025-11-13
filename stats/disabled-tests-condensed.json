@@ -63,6 +63,13 @@
       "rocm"
     ]
   ],
+  "test_Transformer_multilayer_coder_cuda_tf32 (__main__.TestNN)": [
+    "155235",
+    "https://github.com/pytorch/pytorch/issues/155235",
+    [
+      "rocm"
+    ]
+  ],
   "test_all_gather_collective (__main__.FxGraphRunnableTest)": [
     "166484",
     "https://github.com/pytorch/pytorch/issues/166484",
@@ -997,6 +1004,13 @@
       "rocm"
     ]
   ],
+  "test_fn_gradgrad_cholesky_solve_cuda_complex128 (__main__.TestBwdGradientsCUDA)": [
+    "164193",
+    "https://github.com/pytorch/pytorch/issues/164193",
+    [
+      "rocm"
+    ]
+  ],
   "test_fn_gradgrad_cholesky_solve_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
     "165713",
     "https://github.com/pytorch/pytorch/issues/165713",
@@ -1581,6 +1595,13 @@
     "https://github.com/pytorch/pytorch/issues/162584",
     [
       "linux"
+    ]
+  ],
+  "test_noncontiguous_samples_cholesky_solve_cuda_complex64 (__main__.TestCommonCUDA)": [
+    "165294",
+    "https://github.com/pytorch/pytorch/issues/165294",
+    [
+      "rocm"
     ]
   ],
   "test_nondeterministic_alert_histc_cuda (__main__.TestTorchDeviceTypeCUDA)": [
@@ -2233,6 +2254,13 @@
     "https://github.com/pytorch/pytorch/issues/148901",
     [
       "inductor"
+    ]
+  ],
+  "test_transformerencoder_fastpath_use_torchscript_False_enable_nested_tensor_True_use_autocast_True_d_model_256_cuda (__main__.TestTransformersCUDA)": [
+    "167733",
+    "https://github.com/pytorch/pytorch/issues/167733",
+    [
+      "rocm"
     ]
   ],
   "test_triton_alltoall (__main__.NVSHMEMTritonTest)": [
