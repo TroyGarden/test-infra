@@ -652,14 +652,6 @@
       "linux"
     ]
   ],
-  "test_data_ptr_access_fails_in_backward_dynamic_shapes (__main__.DynamicShapesAotAutogradFallbackTests)": [
-    "166683",
-    "https://github.com/pytorch/pytorch/issues/166683",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_ddp_apply_optim_in_backward (__main__.TestDistBackendWithSpawn)": [
     "155714",
     "https://github.com/pytorch/pytorch/issues/155714",
@@ -719,6 +711,13 @@
   "test_decoder_padding_and_src_mask_bool_cpu (__main__.TestTransformersCPU)": [
     "101787",
     "https://github.com/pytorch/pytorch/issues/101787",
+    [
+      "dynamo"
+    ]
+  ],
+  "test_defined_in_python (__main__.TestCustomOp)": [
+    "167815",
+    "https://github.com/pytorch/pytorch/issues/167815",
     [
       "dynamo"
     ]
@@ -1071,6 +1070,20 @@
       "slow"
     ]
   ],
+  "test_forward_mode_AD_cholesky_solve_cuda_complex128 (__main__.TestFwdGradientsCUDA)": [
+    "164194",
+    "https://github.com/pytorch/pytorch/issues/164194",
+    [
+      "rocm"
+    ]
+  ],
+  "test_forward_mode_AD_cholesky_solve_cuda_float64 (__main__.TestFwdGradientsCUDA)": [
+    "164235",
+    "https://github.com/pytorch/pytorch/issues/164235",
+    [
+      "rocm"
+    ]
+  ],
   "test_fsdp_unsupported_module_cls (__main__.TestFSDPMiscMultiThread)": [
     "137948",
     "https://github.com/pytorch/pytorch/issues/137948",
@@ -1285,6 +1298,13 @@
     "156438",
     "https://github.com/pytorch/pytorch/issues/156438",
     []
+  ],
+  "test_int8_woq_mm_cuda_batch_size_17_mid_dim_1_in_features_1024_out_features_64_cuda_bfloat16 (__main__.TestSelectAlgorithmCudaCUDA)": [
+    "167814",
+    "https://github.com/pytorch/pytorch/issues/167814",
+    [
+      "rocm"
+    ]
   ],
   "test_interaction_with_triton_template (__main__.LoopOrderingTest)": [
     "162462",
@@ -1567,13 +1587,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_multinomial (__main__.CudaGraphTreeTests)": [
-    "166682",
-    "https://github.com/pytorch/pytorch/issues/166682",
-    [
-      "linux"
     ]
   ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
