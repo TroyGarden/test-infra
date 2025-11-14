@@ -1345,6 +1345,13 @@
       "xpu"
     ]
   ],
+  "test_lite_mode_not_decompose_xpu (__main__.GPUTests)": [
+    "167810",
+    "https://github.com/pytorch/pytorch/issues/167810",
+    [
+      "xpu"
+    ]
+  ],
   "test_lobpcg (__main__.TestAutograd)": [
     "80338",
     "https://github.com/pytorch/pytorch/issues/80338",
