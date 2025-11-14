@@ -1331,6 +1331,20 @@
       "linux"
     ]
   ],
+  "test_lite_mode_not_decompose_dynamic_shapes_xpu (__main__.DynamicShapesCodegenGPUTests)": [
+    "167808",
+    "https://github.com/pytorch/pytorch/issues/167808",
+    [
+      "xpu"
+    ]
+  ],
+  "test_lite_mode_not_decompose_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)": [
+    "167809",
+    "https://github.com/pytorch/pytorch/issues/167809",
+    [
+      "xpu"
+    ]
+  ],
   "test_lobpcg (__main__.TestAutograd)": [
     "80338",
     "https://github.com/pytorch/pytorch/issues/80338",
@@ -1892,6 +1906,13 @@
     "https://github.com/pytorch/pytorch/issues/69178",
     [
       "mac"
+    ]
+  ],
+  "test_remove_noop_pass_with_remove_passes (__main__.TestPatternMatcher)": [
+    "167807",
+    "https://github.com/pytorch/pytorch/issues/167807",
+    [
+      "xpu"
     ]
   ],
   "test_remove_noop_slice1_cpu (__main__.CpuTests)": [
