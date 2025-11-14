@@ -608,6 +608,15 @@
       "macos"
     ]
   ],
+  "test_create_rand_mask_from_inputs (__main__.ReproTests)": [
+    "166617",
+    "https://github.com/pytorch/pytorch/issues/166617",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_cuda_assert_should_not_stop_common_distributed_test_suite_cuda (__main__.TestTestingCUDA)": [
     "106308",
     "https://github.com/pytorch/pytorch/issues/106308",
@@ -1428,6 +1437,14 @@
       "slow"
     ]
   ],
+  "test_mempool_limited_memory_with_allocator (__main__.TestMemPool)": [
+    "157256",
+    "https://github.com/pytorch/pytorch/issues/157256",
+    [
+      "linux",
+      "rocm"
+    ]
+  ],
   "test_mempool_with_allocator (__main__.TestMemPool)": [
     "154566",
     "https://github.com/pytorch/pytorch/issues/154566",
@@ -2081,6 +2098,13 @@
       "dynamo"
     ]
   ],
+  "test_sparse_add_cuda_float32 (__main__.TestSparseCSRCUDA)": [
+    "167783",
+    "https://github.com/pytorch/pytorch/issues/167783",
+    [
+      "rocm"
+    ]
+  ],
   "test_special_polygamma_cpu_halide (__main__.HalideCpuTests)": [
     "150624",
     "https://github.com/pytorch/pytorch/issues/150624",
@@ -2312,6 +2336,14 @@
     "https://github.com/pytorch/pytorch/issues/159348",
     [
       "rocm"
+    ]
+  ],
+  "test_upper_bound_i64_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
+    "159860",
+    "https://github.com/pytorch/pytorch/issues/159860",
+    [
+      "inductor",
+      "linux"
     ]
   ],
   "test_var_mean_tile_reduction_True_cuda (__main__.GPUTests)": [
