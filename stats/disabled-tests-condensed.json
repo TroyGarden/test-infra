@@ -304,6 +304,13 @@
       "dynamo"
     ]
   ],
+  "test_call_count_tunableop_cuda_float32 (__main__.TestLinalgCUDA)": [
+    "155953",
+    "https://github.com/pytorch/pytorch/issues/155953",
+    [
+      "rocm"
+    ]
+  ],
   "test_cdist_large_batch_cpu (__main__.TestTorchDeviceTypeCPU)": [
     "158909",
     "https://github.com/pytorch/pytorch/issues/158909",
@@ -782,15 +789,6 @@
       "linux"
     ]
   ],
-  "test_dont_aggressively_write_assert (__main__.ReproTests)": [
-    "156570",
-    "https://github.com/pytorch/pytorch/issues/156570",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_dont_dce_rand (__main__.ReproTests)": [
     "156580",
     "https://github.com/pytorch/pytorch/issues/156580",
@@ -1014,14 +1012,6 @@
     "164193",
     "https://github.com/pytorch/pytorch/issues/164193",
     [
-      "rocm"
-    ]
-  ],
-  "test_fn_gradgrad_cholesky_solve_cuda_float64 (__main__.TestBwdGradientsCUDA)": [
-    "165713",
-    "https://github.com/pytorch/pytorch/issues/165713",
-    [
-      "inductor",
       "rocm"
     ]
   ],
@@ -1738,15 +1728,6 @@
     "https://github.com/pytorch/pytorch/issues/167538",
     [
       "rocm"
-    ]
-  ],
-  "test_pre_grad (__main__.TestCompilerBisector)": [
-    "164462",
-    "https://github.com/pytorch/pytorch/issues/164462",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
