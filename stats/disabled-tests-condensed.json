@@ -123,33 +123,9 @@
       "linux"
     ]
   ],
-  "test_annotate_on_assert_retraceability_nonstrict (__main__.RetraceExportNonStrictTestExport)": [
-    "167432",
-    "https://github.com/pytorch/pytorch/issues/167432",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_annotate_on_assert_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
     "167434",
     "https://github.com/pytorch/pytorch/issues/167434",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
-  "test_annotate_on_assert_training_ir_to_decomp_nonstrict (__main__.TrainingIRToRunDecompExportNonStrictTestExport)": [
-    "167433",
-    "https://github.com/pytorch/pytorch/issues/167433",
     [
       "asan",
       "linux",
