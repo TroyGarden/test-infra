@@ -123,18 +123,6 @@
       "linux"
     ]
   ],
-  "test_annotate_on_assert_serdes_nonstrict (__main__.SerDesExportNonStrictTestExport)": [
-    "167434",
-    "https://github.com/pytorch/pytorch/issues/167434",
-    [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_aot_autograd_exhaustive_as_strided_scatter_cpu_float32 (__main__.TestEagerFusionOpInfoCPU)": [
     "85879",
     "https://github.com/pytorch/pytorch/issues/85879",
