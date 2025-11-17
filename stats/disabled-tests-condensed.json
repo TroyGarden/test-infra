@@ -131,13 +131,6 @@
       "macos"
     ]
   ],
-  "test_aot_cudagraphs_cuda (__main__.TestOptimizationsCUDA)": [
-    "146851",
-    "https://github.com/pytorch/pytorch/issues/146851",
-    [
-      "linux"
-    ]
-  ],
   "test_aoti_user_defined_triton_kernel_profiling_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
     "165130",
     "https://github.com/pytorch/pytorch/issues/165130",
@@ -1298,16 +1291,6 @@
       "dynamo"
     ]
   ],
-  "test_jvpvjp_nn_functional_conv3d_cuda_float32 (__main__.TestOperatorsCUDA)": [
-    "114654",
-    "https://github.com/pytorch/pytorch/issues/114654",
-    [
-      "linux",
-      "rocm",
-      "win",
-      "windows"
-    ]
-  ],
   "test_like_channels_last_cpu (__main__.CpuTritonTests)": [
     "139149",
     "https://github.com/pytorch/pytorch/issues/139149",
@@ -1341,13 +1324,6 @@
     "https://github.com/pytorch/pytorch/issues/167810",
     [
       "xpu"
-    ]
-  ],
-  "test_lobpcg (__main__.TestAutograd)": [
-    "80338",
-    "https://github.com/pytorch/pytorch/issues/80338",
-    [
-      "linux"
     ]
   ],
   "test_mark_unbacked_with_hint_override_cuda (__main__.GPUTests)": [
@@ -1593,13 +1569,6 @@
     "https://github.com/pytorch/pytorch/issues/157896",
     [
       "rocm"
-    ]
-  ],
-  "test_nested_masked_select_cpu (__main__.TestNestedTensorDeviceTypeCPU)": [
-    "165389",
-    "https://github.com/pytorch/pytorch/issues/165389",
-    [
-      "dynamo"
     ]
   ],
   "test_new_subgroups (__main__.TestDistBackendWithSpawn)": [
