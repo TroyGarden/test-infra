@@ -39,6 +39,14 @@
     "",
     ""
   ],
+  "test_head_specific_gate_batch:2_head:4_seq_len:37_headdim:16_dtype:bfloat16_mode_max-autotune-no-cudagraphs_cuda (__main__.TestLearnableBiasesCUDA)": [
+    "pytorch-bot",
+    "167942",
+    "https://github.com/pytorch/pytorch/issues/167942",
+    "test_head_specific_gate_batch:2_head:4_seq_len:37_headdim:16_dtype:bfloat16_mode_max-autotune-no-cudagraphs_cuda (__main__.TestLearnableBiasesCUDA)",
+    "",
+    ""
+  ],
   "test_layernorm_fp8_quant_benchmark_float8_e4m3fn_shape_4,2048,4096_keepdim_False (__main__.TestFP8Types)": [
     "pytorch-bot",
     "167497",
