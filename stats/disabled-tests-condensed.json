@@ -1531,6 +1531,13 @@
       "dynamo"
     ]
   ],
+  "test_mv_tensor_accessor_cuda (__main__.TestLibtorchAgnosticCUDA)": [
+    "168045",
+    "https://github.com/pytorch/pytorch/issues/168045",
+    [
+      "linux"
+    ]
+  ],
   "test_nan_assert_bfloat16 (__main__.ProcessGroupNCCLGroupTest)": [
     "166066",
     "https://github.com/pytorch/pytorch/issues/166066",
