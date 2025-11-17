@@ -929,6 +929,13 @@
       "rocm"
     ]
   ],
+  "test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape1_cuda (__main__.TestFlexAttentionCUDA)": [
+    "161503",
+    "https://github.com/pytorch/pytorch/issues/161503",
+    [
+      "linux"
+    ]
+  ],
   "test_flop_counter_op_options0_xpu_float16 (__main__.TestSchedulerXPU)": [
     "166704",
     "https://github.com/pytorch/pytorch/issues/166704",
@@ -1662,20 +1669,6 @@
       "slow"
     ]
   ],
-  "test_parity__foreach_lgamma_fastpath_inplace_cuda_float64 (__main__.TestForeachCUDA)": [
-    "166485",
-    "https://github.com/pytorch/pytorch/issues/166485",
-    [
-      "rocm"
-    ]
-  ],
-  "test_parity__foreach_lgamma_fastpath_outplace_cuda_float64 (__main__.TestForeachCUDA)": [
-    "166506",
-    "https://github.com/pytorch/pytorch/issues/166506",
-    [
-      "rocm"
-    ]
-  ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
     "152221",
     "https://github.com/pytorch/pytorch/issues/152221",
@@ -2013,16 +2006,6 @@
     "https://github.com/pytorch/pytorch/issues/144922",
     [
       "rocm"
-    ]
-  ],
-  "test_repeated_calling_cuda (__main__.AOTInductorTestABICompatibleGpu)": [
-    "146185",
-    "https://github.com/pytorch/pytorch/issues/146185",
-    [
-      "inductor",
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_repeated_masked_load (__main__.CudaReproTests)": [
