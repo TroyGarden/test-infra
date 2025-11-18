@@ -49,13 +49,6 @@
       "linux"
     ]
   ],
-  "test_LinearAndSoftmax_codegen (__main__.PaddingTest)": [
-    "128488",
-    "https://github.com/pytorch/pytorch/issues/128488",
-    [
-      "linux"
-    ]
-  ],
   "test_Linear_cuda_tf32 (__main__.TestNN)": [
     "155216",
     "https://github.com/pytorch/pytorch/issues/155216",
@@ -191,13 +184,6 @@
     "https://github.com/pytorch/pytorch/issues/158335",
     [
       "inductor"
-    ]
-  ],
-  "test_big_num_tensors__foreach_max_use_cuda_graph_False_w_empty_True_cuda_float64 (__main__.TestForeachCUDA)": [
-    "166435",
-    "https://github.com/pytorch/pytorch/issues/166435",
-    [
-      "rocm"
     ]
   ],
   "test_binary_redirect_and_tee (__main__.StartProcessesListAsBinaryTest)": [
@@ -535,14 +521,6 @@
       "rocm"
     ]
   ],
-  "test_conv_transpose_unary_fusion_ops (__main__.TestMkldnnFusion)": [
-    "158115",
-    "https://github.com/pytorch/pytorch/issues/158115",
-    [
-      "asan",
-      "linux"
-    ]
-  ],
   "test_conv_unary_fusion_ops (__main__.TestMkldnnFusion)": [
     "161579",
     "https://github.com/pytorch/pytorch/issues/161579",
@@ -762,14 +740,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_dropout_deterministic_cuda (__main__.GPUTests)": [
-    "133025",
-    "https://github.com/pytorch/pytorch/issues/133025",
-    [
-      "inductor",
-      "linux"
     ]
   ],
   "test_dropout_deterministic_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
@@ -1488,13 +1458,6 @@
       "slow"
     ]
   ],
-  "test_modes_handle_first (__main__.TestTorchFunctionMode)": [
-    "162624",
-    "https://github.com/pytorch/pytorch/issues/162624",
-    [
-      "dynamo"
-    ]
-  ],
   "test_module_and_optimizer_ids (__main__.TestTorchTidyProfiler)": [
     "87581",
     "https://github.com/pytorch/pytorch/issues/87581",
@@ -1566,6 +1529,13 @@
       "rocm"
     ]
   ],
+  "test_nested_masked_select_cpu (__main__.TestNestedTensorDeviceTypeCPU)": [
+    "165389",
+    "https://github.com/pytorch/pytorch/issues/165389",
+    [
+      "dynamo"
+    ]
+  ],
   "test_new_subgroups (__main__.TestDistBackendWithSpawn)": [
     "164195",
     "https://github.com/pytorch/pytorch/issues/164195",
@@ -1622,15 +1592,6 @@
     "https://github.com/pytorch/pytorch/issues/91494",
     [
       "linux"
-    ]
-  ],
-  "test_parity__foreach_acos_fastpath_outplace_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "151093",
-    "https://github.com/pytorch/pytorch/issues/151093",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
@@ -2191,14 +2152,6 @@
       "linux",
       "rocm",
       "slow"
-    ]
-  ],
-  "test_toy_model_basic (__main__.FxGraphRunnableTest)": [
-    "163595",
-    "https://github.com/pytorch/pytorch/issues/163595",
-    [
-      "asan",
-      "linux"
     ]
   ],
   "test_toy_model_batch_processing (__main__.FxGraphRunnableTest)": [
