@@ -742,6 +742,14 @@
       "slow"
     ]
   ],
+  "test_dropout_deterministic_cuda (__main__.GPUTests)": [
+    "133025",
+    "https://github.com/pytorch/pytorch/issues/133025",
+    [
+      "inductor",
+      "linux"
+    ]
+  ],
   "test_dropout_deterministic_dynamic_shapes_cuda (__main__.DynamicShapesGPUTests)": [
     "132957",
     "https://github.com/pytorch/pytorch/issues/132957",
@@ -1044,15 +1052,6 @@
       "slow",
       "win",
       "windows"
-    ]
-  ],
-  "test_get_parameter_dtype (__main__.ReproTests)": [
-    "156598",
-    "https://github.com/pytorch/pytorch/issues/156598",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_getitem_call (__main__.TestTorchFunctionMode)": [
@@ -1458,6 +1457,13 @@
       "slow"
     ]
   ],
+  "test_modes_handle_first (__main__.TestTorchFunctionMode)": [
+    "162624",
+    "https://github.com/pytorch/pytorch/issues/162624",
+    [
+      "dynamo"
+    ]
+  ],
   "test_module_and_optimizer_ids (__main__.TestTorchTidyProfiler)": [
     "87581",
     "https://github.com/pytorch/pytorch/issues/87581",
@@ -1767,13 +1773,6 @@
     "https://github.com/pytorch/pytorch/issues/157897",
     [
       "linux"
-    ]
-  ],
-  "test_reentrant_mode_idiom (__main__.TestTorchFunctionMode)": [
-    "162677",
-    "https://github.com/pytorch/pytorch/issues/162677",
-    [
-      "dynamo"
     ]
   ],
   "test_reentrant_parent_error_on_cpu_cuda (__main__.TestAutogradDeviceTypeCUDA)": [
@@ -2123,13 +2122,6 @@
     "https://github.com/pytorch/pytorch/issues/70546",
     [
       "mac"
-    ]
-  ],
-  "test_torch_function_all_disabled_api (__main__.TestTorchFunctionMode)": [
-    "162704",
-    "https://github.com/pytorch/pytorch/issues/162704",
-    [
-      "dynamo"
     ]
   ],
   "test_torch_name_rule_map_updated (__main__.TraceRuleTests)": [
