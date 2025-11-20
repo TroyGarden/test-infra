@@ -78,15 +78,6 @@
       "rocm"
     ]
   ],
-  "test_all_gather_collective (__main__.FxGraphRunnableTest)": [
-    "166484",
-    "https://github.com/pytorch/pytorch/issues/166484",
-    [
-      "asan",
-      "linux",
-      "rocm"
-    ]
-  ],
   "test_all_reduce_coalesced_group_min (__main__.TestDistBackendWithSpawn)": [
     "70754",
     "https://github.com/pytorch/pytorch/issues/70754",
@@ -677,6 +668,15 @@
     "https://github.com/pytorch/pytorch/issues/167815",
     [
       "dynamo"
+    ]
+  ],
+  "test_device_moved_constant_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)": [
+    "168250",
+    "https://github.com/pytorch/pytorch/issues/168250",
+    [
+      "linux",
+      "rocm",
+      "slow"
     ]
   ],
   "test_disable_external_correlation (__main__.TestProfiler)": [
@@ -1824,6 +1824,15 @@
       "dynamo"
     ]
   ],
+  "test_relative_import (__main__.ReproTests)": [
+    "156679",
+    "https://github.com/pytorch/pytorch/issues/156679",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_relative_import_no_modulename (__main__.ReproTests)": [
     "156691",
     "https://github.com/pytorch/pytorch/issues/156691",
@@ -1985,6 +1994,13 @@
     "https://github.com/pytorch/pytorch/issues/91492",
     [
       "linux"
+    ]
+  ],
+  "test_return_aux_deprecation_warnings_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
+    "162464",
+    "https://github.com/pytorch/pytorch/issues/162464",
+    [
+      "rocm"
     ]
   ],
   "test_rng (__main__.TestCompilerBisector)": [
