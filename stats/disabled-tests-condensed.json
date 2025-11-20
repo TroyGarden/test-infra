@@ -1523,6 +1523,13 @@
       "macos"
     ]
   ],
+  "test_multinomial (__main__.CudaGraphTreeTests)": [
+    "166682",
+    "https://github.com/pytorch/pytorch/issues/166682",
+    [
+      "linux"
+    ]
+  ],
   "test_multiple_module (__main__.TestInvokeSubgraphExportStrict)": [
     "150877",
     "https://github.com/pytorch/pytorch/issues/150877",
@@ -1817,15 +1824,6 @@
       "dynamo"
     ]
   ],
-  "test_relative_import (__main__.ReproTests)": [
-    "156679",
-    "https://github.com/pytorch/pytorch/issues/156679",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_relative_import_no_modulename (__main__.ReproTests)": [
     "156691",
     "https://github.com/pytorch/pytorch/issues/156691",
@@ -1987,13 +1985,6 @@
     "https://github.com/pytorch/pytorch/issues/91492",
     [
       "linux"
-    ]
-  ],
-  "test_return_aux_deprecation_warnings_cuda_float16 (__main__.TestFlexAttentionCUDA)": [
-    "162464",
-    "https://github.com/pytorch/pytorch/issues/162464",
-    [
-      "rocm"
     ]
   ],
   "test_rng (__main__.TestCompilerBisector)": [
