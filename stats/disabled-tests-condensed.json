@@ -2003,14 +2003,6 @@
       "slow"
     ]
   ],
-  "test_sdpa_fp32_no_memory_leak (__main__.TestSDPA)": [
-    "158330",
-    "https://github.com/pytorch/pytorch/issues/158330",
-    [
-      "mac",
-      "macos"
-    ]
-  ],
   "test_send_recv_all_to_all (__main__.ProcessGroupGlooTest)": [
     "71195",
     "https://github.com/pytorch/pytorch/issues/71195",
