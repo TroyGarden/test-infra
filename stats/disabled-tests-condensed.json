@@ -141,6 +141,13 @@
       "windows"
     ]
   ],
+  "test_augment_trace_against_flop_counter_maxat0_xpu_float16 (__main__.TestAnalysisXPU)": [
+    "168327",
+    "https://github.com/pytorch/pytorch/issues/168327",
+    [
+      "xpu"
+    ]
+  ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
     "104328",
     "https://github.com/pytorch/pytorch/issues/104328",
