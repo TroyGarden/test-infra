@@ -1053,6 +1053,13 @@
       "linux"
     ]
   ],
+  "test_fw_bw_graph_correctness_xpu (__main__.TestFlexAttentionXPU)": [
+    "162435",
+    "https://github.com/pytorch/pytorch/issues/162435",
+    [
+      "xpu"
+    ]
+  ],
   "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
     "133994",
     "https://github.com/pytorch/pytorch/issues/133994",
