@@ -856,13 +856,6 @@
       "windows"
     ]
   ],
-  "test_emulate_precision_casts_mean_ratio_chain (__main__.CudaReproTests)": [
-    "163765",
-    "https://github.com/pytorch/pytorch/issues/163765",
-    [
-      "rocm"
-    ]
-  ],
   "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionGpuTest)": [
     "166601",
     "https://github.com/pytorch/pytorch/issues/166601",
@@ -1126,13 +1119,6 @@
     "https://github.com/pytorch/pytorch/issues/104055",
     [
       "rocm"
-    ]
-  ],
-  "test_graph_partition_cudagraphs_aot_eager_compat_equal (__main__.TestSAC)": [
-    "167274",
-    "https://github.com/pytorch/pytorch/issues/167274",
-    [
-      "linux"
     ]
   ],
   "test_guard_serialization_fsdp_module (__main__.TestGuardSerializationFSDP)": [
@@ -1409,15 +1395,6 @@
       "slow"
     ]
   ],
-  "test_mempool_ctx_multithread (__main__.TestMemPool)": [
-    "153460",
-    "https://github.com/pytorch/pytorch/issues/153460",
-    [
-      "linux",
-      "rocm",
-      "slow"
-    ]
-  ],
   "test_mempool_empty_cache_inactive (__main__.TestMemPool)": [
     "159663",
     "https://github.com/pytorch/pytorch/issues/159663",
@@ -1661,13 +1638,6 @@
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
     "152221",
     "https://github.com/pytorch/pytorch/issues/152221",
-    [
-      "rocm"
-    ]
-  ],
-  "test_pointwise_op_with_tensor_of_scalarlist_overload__foreach_addcdiv_is_fastpath_True_cuda_complex128 (__main__.TestForeachCUDA)": [
-    "166486",
-    "https://github.com/pytorch/pytorch/issues/166486",
     [
       "rocm"
     ]
