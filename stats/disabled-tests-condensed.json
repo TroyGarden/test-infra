@@ -1395,6 +1395,15 @@
       "slow"
     ]
   ],
+  "test_mempool_ctx_multithread (__main__.TestMemPool)": [
+    "153460",
+    "https://github.com/pytorch/pytorch/issues/153460",
+    [
+      "linux",
+      "rocm",
+      "slow"
+    ]
+  ],
   "test_mempool_empty_cache_inactive (__main__.TestMemPool)": [
     "159663",
     "https://github.com/pytorch/pytorch/issues/159663",
@@ -1721,6 +1730,13 @@
       "linux"
     ]
   ],
+  "test_progressive (__main__.GPUTests)": [
+    "157724",
+    "https://github.com/pytorch/pytorch/issues/157724",
+    [
+      "rocm"
+    ]
+  ],
   "test_progressive (__main__.TestSubprocess)": [
     "157788",
     "https://github.com/pytorch/pytorch/issues/157788",
@@ -1876,15 +1892,6 @@
       "mac",
       "macos",
       "rocm"
-    ]
-  ],
-  "test_remove_noop_slice_cuda (__main__.GPUTests)": [
-    "151383",
-    "https://github.com/pytorch/pytorch/issues/151383",
-    [
-      "linux",
-      "rocm",
-      "slow"
     ]
   ],
   "test_remove_noop_slice_scatter_cpu (__main__.CpuTests)": [
