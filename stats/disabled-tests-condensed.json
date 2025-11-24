@@ -856,6 +856,13 @@
       "windows"
     ]
   ],
+  "test_emulate_precision_casts_mean_ratio_chain (__main__.CudaReproTests)": [
+    "163765",
+    "https://github.com/pytorch/pytorch/issues/163765",
+    [
+      "rocm"
+    ]
+  ],
   "test_equivalent_template_code (__main__.BenchmarkMultiTemplateFusionGpuTest)": [
     "166601",
     "https://github.com/pytorch/pytorch/issues/166601",
