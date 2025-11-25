@@ -35,13 +35,6 @@
       "rocm"
     ]
   ],
-  "test_3layer_split_reduction (__main__.NoMixOrderReductionTest)": [
-    "166836",
-    "https://github.com/pytorch/pytorch/issues/166836",
-    [
-      "rocm"
-    ]
-  ],
   "test_DistributedDataParallel (__main__.TestDistBackendWithSpawn)": [
     "77317",
     "https://github.com/pytorch/pytorch/issues/77317",
@@ -99,13 +92,6 @@
     "https://github.com/pytorch/pytorch/issues/157879",
     [
       "linux"
-    ]
-  ],
-  "test_allreduce_inductor_cudagraph_trees (__main__.TestCollectivesMultiProc)": [
-    "164018",
-    "https://github.com/pytorch/pytorch/issues/164018",
-    [
-      "rocm"
     ]
   ],
   "test_always_alive_values (jit.test_freezing.TestMKLDNNReinplacing)": [
@@ -229,13 +215,6 @@
     [
       "asan",
       "linux",
-      "rocm"
-    ]
-  ],
-  "test_broadcast_with_singleton_dims_cuda (__main__.TritonBlockPointerTestGPU)": [
-    "161095",
-    "https://github.com/pytorch/pytorch/issues/161095",
-    [
       "rocm"
     ]
   ],
@@ -1320,13 +1299,6 @@
       "inductor"
     ]
   ],
-  "test_matmul_fp16 (__main__.TestTritonDotReduction)": [
-    "168196",
-    "https://github.com/pytorch/pytorch/issues/168196",
-    [
-      "rocm"
-    ]
-  ],
   "test_max_autotune_addmm_search_space_EXHAUSTIVE_dynamic_True (__main__.TestMaxAutotuneSubproc)": [
     "161463",
     "https://github.com/pytorch/pytorch/issues/161463",
@@ -1644,13 +1616,6 @@
       "linux"
     ]
   ],
-  "test_ordered_distribute_all_combination (__main__.DistributeWithDeviceOrderTest)": [
-    "168197",
-    "https://github.com/pytorch/pytorch/issues/168197",
-    [
-      "rocm"
-    ]
-  ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
     "152221",
     "https://github.com/pytorch/pytorch/issues/152221",
@@ -1780,13 +1745,6 @@
     [
       "mac",
       "macos"
-    ]
-  ],
-  "test_qwen2_7b_sdpa_input_alignment_requires_recompile (__main__.CudaReproTests)": [
-    "163689",
-    "https://github.com/pytorch/pytorch/issues/163689",
-    [
-      "rocm"
     ]
   ],
   "test_rand (test_jit.TestScript)": [
@@ -1980,13 +1938,6 @@
       "slow"
     ]
   ],
-  "test_repeated_masked_load (__main__.CudaReproTests)": [
-    "163701",
-    "https://github.com/pytorch/pytorch/issues/163701",
-    [
-      "rocm"
-    ]
-  ],
   "test_requires_grad_loop (test_jit.TestScript)": [
     "91492",
     "https://github.com/pytorch/pytorch/issues/91492",
@@ -2094,25 +2045,11 @@
       "dynamo"
     ]
   ],
-  "test_svd_lowrank_cuda_complex128 (__main__.TestLinalgCUDA)": [
-    "168302",
-    "https://github.com/pytorch/pytorch/issues/168302",
-    [
-      "rocm"
-    ]
-  ],
   "test_switch_inputs_to_inplace (jit.test_freezing.TestMKLDNNReinplacing)": [
     "91488",
     "https://github.com/pytorch/pytorch/issues/91488",
     [
       "linux"
-    ]
-  ],
-  "test_tcp (__main__.WorkerServerTest)": [
-    "144689",
-    "https://github.com/pytorch/pytorch/issues/144689",
-    [
-      "rocm"
     ]
   ],
   "test_tensor_as_tensor_shape_prop (test_jit.TestScript)": [
@@ -2233,20 +2170,6 @@
       "inductor"
     ]
   ],
-  "test_transformerencoder_fastpath_use_torchscript_False_enable_nested_tensor_False_use_autocast_True_d_model_256_cuda (__main__.TestTransformersCUDA)": [
-    "167793",
-    "https://github.com/pytorch/pytorch/issues/167793",
-    [
-      "rocm"
-    ]
-  ],
-  "test_transformerencoder_fastpath_use_torchscript_False_enable_nested_tensor_True_use_autocast_True_d_model_256_cuda (__main__.TestTransformersCUDA)": [
-    "167733",
-    "https://github.com/pytorch/pytorch/issues/167733",
-    [
-      "rocm"
-    ]
-  ],
   "test_triton_alltoall (__main__.NVSHMEMTritonTest)": [
     "158840",
     "https://github.com/pytorch/pytorch/issues/158840",
@@ -2266,20 +2189,6 @@
     "https://github.com/pytorch/pytorch/issues/158908",
     [
       "linux"
-    ]
-  ],
-  "test_triu_tril_large_matrix_64bit_cuda (__main__.TestLinalgCUDA)": [
-    "165966",
-    "https://github.com/pytorch/pytorch/issues/165966",
-    [
-      "rocm"
-    ]
-  ],
-  "test_truediv_base_not_bitwise_equivalent (__main__.CudaReproTests)": [
-    "165671",
-    "https://github.com/pytorch/pytorch/issues/165671",
-    [
-      "rocm"
     ]
   ],
   "test_trust_repo_check_yes (__main__.TestHub)": [
