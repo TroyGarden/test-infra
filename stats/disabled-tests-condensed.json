@@ -109,13 +109,6 @@
       "macos"
     ]
   ],
-  "test_aoti_user_defined_triton_kernel_profiling_xpu (__main__.AOTInductorTestABICompatibleGpu)": [
-    "165130",
-    "https://github.com/pytorch/pytorch/issues/165130",
-    [
-      "xpu"
-    ]
-  ],
   "test_attn_cuda (__main__.TestMin)": [
     "86710",
     "https://github.com/pytorch/pytorch/issues/86710",
@@ -125,13 +118,6 @@
       "slow",
       "win",
       "windows"
-    ]
-  ],
-  "test_augment_trace_against_flop_counter_maxat0_xpu_float16 (__main__.TestAnalysisXPU)": [
-    "168327",
-    "https://github.com/pytorch/pytorch/issues/168327",
-    [
-      "xpu"
     ]
   ],
   "test_backward_ddp_inside (__main__.TensorPipeDdpUnderDistAutogradTest)": [
