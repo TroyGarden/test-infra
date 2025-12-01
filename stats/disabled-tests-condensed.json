@@ -1602,6 +1602,13 @@
       "linux"
     ]
   ],
+  "test_ordered_distribute_all_combination (__main__.DistributeWithDeviceOrderTest)": [
+    "168197",
+    "https://github.com/pytorch/pytorch/issues/168197",
+    [
+      "rocm"
+    ]
+  ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
     "152221",
     "https://github.com/pytorch/pytorch/issues/152221",
@@ -2175,6 +2182,20 @@
     "https://github.com/pytorch/pytorch/issues/158908",
     [
       "linux"
+    ]
+  ],
+  "test_triu_tril_large_matrix_64bit_cuda (__main__.TestLinalgCUDA)": [
+    "165966",
+    "https://github.com/pytorch/pytorch/issues/165966",
+    [
+      "rocm"
+    ]
+  ],
+  "test_truediv_base_not_bitwise_equivalent (__main__.CudaReproTests)": [
+    "165671",
+    "https://github.com/pytorch/pytorch/issues/165671",
+    [
+      "rocm"
     ]
   ],
   "test_trust_repo_check_yes (__main__.TestHub)": [
