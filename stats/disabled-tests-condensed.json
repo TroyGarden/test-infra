@@ -1646,6 +1646,13 @@
       "slow"
     ]
   ],
+  "test_pretrained_non_const_attr (__main__.TestHFPretrained)": [
+    "169481",
+    "https://github.com/pytorch/pytorch/issues/169481",
+    [
+      "linux"
+    ]
+  ],
   "test_prim_grad_undefined (test_jit.TestScript)": [
     "91493",
     "https://github.com/pytorch/pytorch/issues/91493",
