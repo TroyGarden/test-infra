@@ -63,14 +63,6 @@
     "linux-jammy-py3_9-clang9-xla",
     "test (xla)"
   ],
-  "trunk / linux-jammy-cuda12.8-py3.10-gcc11 / test (default)": [
-    "atalman",
-    "169492",
-    "https://github.com/pytorch/pytorch/issues/169492",
-    "trunk",
-    "linux-jammy-cuda12.8-py3.10-gcc11",
-    "test (default)"
-  ],
   "trunk / linux-jammy-py3-clang12-executorch / test (executorch)": [
     "clee2000",
     "166072",
