@@ -79,14 +79,6 @@
     "linux-jammy-py3-clang12-executorch",
     "test (executorch)"
   ],
-  "trunk / linux-jammy-rocm-py3.10 / test": [
-    "huydhn",
-    "169451",
-    "https://github.com/pytorch/pytorch/issues/169451",
-    "trunk",
-    "linux-jammy-rocm-py3.10",
-    "test"
-  ],
   "trunk-rocm-mi300 / linux-jammy-rocm-py3.10 / test": [
     "jithunnair-amd",
     "167616",
