@@ -893,6 +893,13 @@
       "linux"
     ]
   ],
+  "test_float8_scale_fast_accum_xpu (__main__.TestFP8MatmulXPU)": [
+    "169556",
+    "https://github.com/pytorch/pytorch/issues/169556",
+    [
+      "xpu"
+    ]
+  ],
   "test_flop_counter_op_options0_xpu_float16 (__main__.TestSchedulerXPU)": [
     "166704",
     "https://github.com/pytorch/pytorch/issues/166704",
