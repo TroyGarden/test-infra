@@ -23,14 +23,6 @@
     "Lint URLs",
     "linux-job"
   ],
-  "inductor / unit-test / inductor-pallas-test / test (inductor-pallas)": [
-    "malfet",
-    "169480",
-    "https://github.com/pytorch/pytorch/issues/169480",
-    "inductor",
-    "unit-test",
-    "inductor-pallas-test / test (inductor-pallas)"
-  ],
   "inductor-periodic / cuda12.8-py3.10-gcc9-sm80 / test (inductor_torchbench_smoketest_perf)": [
     "zou3519",
     "161295",
