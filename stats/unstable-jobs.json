@@ -47,6 +47,14 @@
     "linux-jammy-cuda12.4-py3.10-gcc11",
     "test (legacy_nvidia_driver)"
   ],
+  "pull / linux-jammy-py3.14-clang12 / test": [
+    "huydhn",
+    "169587",
+    "https://github.com/pytorch/pytorch/issues/169587",
+    "pull",
+    "linux-jammy-py3.14-clang12",
+    "test"
+  ],
   "pull / linux-jammy-py3_9-clang9-xla / test (xla)": [
     "ZainRizvi",
     "158876",
