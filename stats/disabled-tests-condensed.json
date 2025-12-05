@@ -1,11 +1,4 @@
 {
-  "test_2d_reduction_multi_kernel_xpu (__main__.TritonBlockPointerTestGPU)": [
-    "165858",
-    "https://github.com/pytorch/pytorch/issues/165858",
-    [
-      "xpu"
-    ]
-  ],
   "test_2d_reductions_mixed_indexing_reduction_op0_cpu (__main__.TritonBlockPointerTestCPU)": [
     "157895",
     "https://github.com/pytorch/pytorch/issues/157895",
@@ -775,20 +768,6 @@
       "rocm"
     ]
   ],
-  "test_dtype_aware_codegen_op_name_sqrt_load_upcast_to_fp32_False_bfloat16_xpu (__main__.TestCaseXPU)": [
-    "166709",
-    "https://github.com/pytorch/pytorch/issues/166709",
-    [
-      "xpu"
-    ]
-  ],
-  "test_dtype_aware_codegen_op_name_sqrt_load_upcast_to_fp32_False_float16_xpu (__main__.TestCaseXPU)": [
-    "166710",
-    "https://github.com/pytorch/pytorch/issues/166710",
-    [
-      "xpu"
-    ]
-  ],
   "test_dynamic_expression (__main__.FxGraphRunnableTest)": [
     "166934",
     "https://github.com/pytorch/pytorch/issues/166934",
@@ -900,41 +879,6 @@
       "linux"
     ]
   ],
-  "test_float8_scale_fast_accum_xpu (__main__.TestFP8MatmulXPU)": [
-    "169556",
-    "https://github.com/pytorch/pytorch/issues/169556",
-    [
-      "xpu"
-    ]
-  ],
-  "test_flop_counter_op_options0_xpu_float16 (__main__.TestSchedulerXPU)": [
-    "166704",
-    "https://github.com/pytorch/pytorch/issues/166704",
-    [
-      "xpu"
-    ]
-  ],
-  "test_flop_counter_op_options0_xpu_float32 (__main__.TestSchedulerXPU)": [
-    "166705",
-    "https://github.com/pytorch/pytorch/issues/166705",
-    [
-      "xpu"
-    ]
-  ],
-  "test_flop_counter_op_options1_xpu_float16 (__main__.TestSchedulerXPU)": [
-    "166706",
-    "https://github.com/pytorch/pytorch/issues/166706",
-    [
-      "xpu"
-    ]
-  ],
-  "test_flop_counter_op_options1_xpu_float32 (__main__.TestSchedulerXPU)": [
-    "166707",
-    "https://github.com/pytorch/pytorch/issues/166707",
-    [
-      "xpu"
-    ]
-  ],
   "test_fn_grad_cholesky_solve_cuda_complex128 (__main__.TestBwdGradientsCUDA)": [
     "164192",
     "https://github.com/pytorch/pytorch/issues/164192",
@@ -1044,13 +988,6 @@
     "https://github.com/pytorch/pytorch/issues/131081",
     [
       "linux"
-    ]
-  ],
-  "test_fw_bw_graph_correctness_xpu (__main__.TestFlexAttentionXPU)": [
-    "162435",
-    "https://github.com/pytorch/pytorch/issues/162435",
-    [
-      "xpu"
     ]
   ],
   "test_get_mode_stack (__main__.TestTorchFunctionMode)": [
@@ -1276,27 +1213,6 @@
     "https://github.com/pytorch/pytorch/issues/145359",
     [
       "linux"
-    ]
-  ],
-  "test_lite_mode_not_decompose_dynamic_shapes_xpu (__main__.DynamicShapesCodegenGPUTests)": [
-    "167808",
-    "https://github.com/pytorch/pytorch/issues/167808",
-    [
-      "xpu"
-    ]
-  ],
-  "test_lite_mode_not_decompose_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)": [
-    "167809",
-    "https://github.com/pytorch/pytorch/issues/167809",
-    [
-      "xpu"
-    ]
-  ],
-  "test_lite_mode_not_decompose_xpu (__main__.GPUTests)": [
-    "167810",
-    "https://github.com/pytorch/pytorch/issues/167810",
-    [
-      "xpu"
     ]
   ],
   "test_mark_unbacked_with_hint_override_cuda (__main__.GPUTests)": [
