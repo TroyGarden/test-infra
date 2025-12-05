@@ -63,14 +63,6 @@
     "linux-jammy-py3-clang12-executorch",
     "test (executorch)"
   ],
-  "trunk / macos-py3-arm64 / build": [
-    "huydhn",
-    "169681",
-    "https://github.com/pytorch/pytorch/issues/169681",
-    "trunk",
-    "macos-py3-arm64",
-    "build"
-  ],
   "trunk-rocm-mi300 / linux-jammy-rocm-py3.10 / test": [
     "jithunnair-amd",
     "167616",
