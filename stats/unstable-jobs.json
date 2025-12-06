@@ -70,13 +70,5 @@
     "trunk-rocm-mi300",
     "linux-jammy-rocm-py3.10",
     "test"
-  ],
-  "vllm-test / ci-vllm-test / test": [
-    "huydhn",
-    "169298",
-    "https://github.com/pytorch/pytorch/issues/169298",
-    "vllm-test",
-    "ci-vllm-test",
-    "test"
   ]
 }
