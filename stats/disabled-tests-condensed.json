@@ -900,6 +900,13 @@
       "linux"
     ]
   ],
+  "test_float8_scale_fast_accum_xpu (__main__.TestFP8MatmulXPU)": [
+    "169556",
+    "https://github.com/pytorch/pytorch/issues/169556",
+    [
+      "xpu"
+    ]
+  ],
   "test_flop_counter_op_options0_xpu_float16 (__main__.TestSchedulerXPU)": [
     "166704",
     "https://github.com/pytorch/pytorch/issues/166704",
@@ -1255,6 +1262,13 @@
     "https://github.com/pytorch/pytorch/issues/153707",
     [
       "dynamo"
+    ]
+  ],
+  "test_layer_norm_sharing_weights_split_reductions_True_bfloat16_has_bias_True (__main__.MixOrderReductionTest)": [
+    "169770",
+    "https://github.com/pytorch/pytorch/issues/169770",
+    [
+      "xpu"
     ]
   ],
   "test_like_channels_last_cpu (__main__.CpuTritonTests)": [
@@ -1621,6 +1635,13 @@
     "https://github.com/pytorch/pytorch/issues/168197",
     [
       "rocm"
+    ]
+  ],
+  "test_partitioner_offload_sep_stream_reorder (__main__.ActivationOffloadingTests)": [
+    "169771",
+    "https://github.com/pytorch/pytorch/issues/169771",
+    [
+      "xpu"
     ]
   ],
   "test_pending_fusions_multiple (__main__.TestPrologueFusion)": [
